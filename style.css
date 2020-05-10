@@ -134,7 +134,7 @@ header h2#competence {
 	margin: 6vw 44vw 4vw 44vw;
 	transition: 0.5s
 }
-#logo:hover {
+#logo:hover, #logo:active {
 	transform: rotate(-5deg);
 	width: 14vw;
 	margin: 6vw 43vw 2vw 43vw;
@@ -281,13 +281,13 @@ ul#experience.school {
     position: relative;
     z-index: 1;
 }
-.more:hover {
+.more:hover, .more:active {
     z-index: 2;
 }
 .more > .description {
     display: none;
 }
-.more:hover > .description {
+.more:hover > .description, .more:active > .description {
     z-index: 9;
     background-color: white;
     position: absolute;
