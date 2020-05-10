@@ -1,0 +1,515 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* fin reset */
+
+@font-face {
+    font-family: 'bebas';
+    src: url('fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'liberation';
+    src: url('fonts/LiberationSans.woff2') format('woff2'),
+         url('fonts/LiberationSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	width: 100%;
+	background: url(img/bg.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+/* header */
+
+h1, h2, h3, h4 {
+	font-family: 'bebas';
+	color:white;
+}
+p {
+	font-size:1em;
+	font-family: 'liberation';
+}
+header {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+#battery {
+	display: inline-block;
+	width:90%;
+	height: 40px;
+	box-sizing: border-box;
+	margin-top:25px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid white
+}
+#wifi {
+	display: block;
+	width:30%;
+	height: 100%;
+	background: url(img/connect.png) no-repeat;
+	float: left;
+}
+#batt {
+	display: block;
+	width:30%;
+	height: 100%;
+	background: url(img/battery.png) no-repeat;
+	background-position: right;
+	float: right;
+}
+header p {
+	display: inline-block;
+	width: 39%;
+	color: white;
+	font-size: 0.8em;
+}
+header h1, header h2 {
+	color: white;
+}
+header h2 {
+	font-size: 2.5em;
+	margin: 20px auto
+}
+header h1 {
+	font-size: 3.5em;
+}
+header h2#competence {
+	font-size: 1.2em;
+	font-family: 'liberation'
+}
+#logo {
+	width: 12vw;
+	height: 12vw;
+	background: url(img/logo_jiha.png) no-repeat;
+	background-size: contain;
+	margin: 6vw 44vw 4vw 44vw;
+	transition: 0.5s
+}
+#logo:hover {
+	transform: rotate(-5deg);
+	width: 14vw;
+	margin: 6vw 43vw 2vw 43vw;
+
+	height: 14vw;
+}
+header a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(img/see_more.png) no-repeat;
+	margin-top:70px;
+	margin-bottom:70px;
+	background-size: contain;
+	transition: 0.2s;
+	opacity: 1
+}
+header a:hover {
+	width: 35px;
+	height: 35px;
+	opacity: 0.5
+}
+nav {
+	width: 100%;
+	height: 50px;
+	padding: 15px 5vw;
+	box-sizing: border-box;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+    text-align: center;
+}
+nav.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	z-index: 5;
+	width: 100%;
+	height: 50px;
+	padding: 15px 5vw;
+	box-sizing: border-box;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white
+}
+nav a {
+	font-family: 'bebas';
+	color: white;
+	text-decoration: none;
+	margin-left: 25px;
+	font-size: 1.2em;
+	padding: 10px
+}
+
+.white {
+	background: white;
+	width: 100%;
+	padding: 50px 5vw;
+	box-sizing: border-box;
+	position: relative;
+}
+.white.fixed {
+	background: white;
+	width: 100%;
+	padding: 70px 5vw;
+	box-sizing: border-box;
+}
+ul li {
+	list-style: none;
+	font-size:1em;
+	font-family: 'liberation';
+    font-weight: bolder;
+	margin: 5px auto;
+}
+#about ul li {
+	text-align: center;
+}
+#about ul {
+	vertical-align: top;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}
+h4 {
+	display: inline-block;
+	width: 100%;
+	background-image: none;
+	color:white;
+	padding:12px 0;
+	font-size: 1.5em;
+	box-sizing: border-box;
+	text-align: center}
+
+h4.xp {
+width: 50%;
+}
+ul#experience, ul#benevol, #ref ul, ul#jobs {
+	display: block;
+    margin: auto;
+	width: 55%;
+    padding-left: 5%;
+	box-sizing: border-box;
+}
+ul#experience.school {
+    display: block;
+}
+.date, .poste, .exempleTitle {
+	display: inline-block;
+	font-family: 'bebas';
+	font-size: 1.5em;
+	color:#b13619;
+	vertical-align: top
+}
+.date {
+	height: 100px;
+	width: 20%;
+	min-width: 80px
+}
+.description {
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	font-size: 0.65em;
+	line-height: 1.3em;
+	width: 100%;
+	font-family: 'liberation';
+	color: black
+}
+.more::before {
+    content: '?';
+    color: white;
+    background-color: #b13619;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+}
+.more {
+    display: block;
+    margin-left: 25px;
+    width: 25px;
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+.more:hover {
+    z-index: 2;
+}
+.more > .description {
+    display: none;
+}
+.more:hover > .description {
+    z-index: 9;
+    background-color: white;
+    position: absolute;
+    display: block;
+    width: 50vw;
+    right: 0;
+    top: 20px;
+    border: 5px solid #b13619;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+.more li {
+    list-style: disc inside;
+    padding: 2px;
+}
+.exempleTitle {
+    padding: 15px;
+}
+.poste {
+	width: 75%
+}
+.stack {
+    font-size: 0.8em;
+    display: block;
+}
+.stack:not(:empty)::before {
+    content: 'Stack: ';
+}
+
+#competence h5 {
+	font-family: 'bebas';
+	font-size: 1.5em;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+hr {width: 70vw;
+	height: 3px;
+	background-color:#b13619;
+	color:#b13619;
+	border:0px;
+}
+#competence h5 {
+	color:#b13619;
+	padding-left: 20px
+}
+#competence ul {
+	background: url(img/bg.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	padding: 20px;
+	color:white;
+	margin-bottom: 50px;
+	    box-sizing: border-box;
+	width: 100%
+}
+#competence li {
+	display: block;
+	max-width: 100%;
+	margin-bottom: 10px
+}
+#competence div {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 45%
+}
+#competence div:nth-child(2) {
+	float: right;
+}
+#contact.white{
+	background: rgba(0,0,0,0);
+}
+#contact.white ul {
+    text-align: center;
+}
+#contact.white ul li{
+	display: inline-block;
+	width: 19.5%;
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+	vertical-align: top;
+	font-size: 0.8em;
+	margin-bottom: 50px
+}
+#contact ul a {
+    color:white;
+    text-decoration: none;
+}
+h4.lastH4 {
+	border-bottom: 2px solid white;
+}
+/*			anime 			*/
+ul.anime	 {
+	width: 200px;
+	position: relative;
+	overflow: hidden;
+	background: #ddd;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+svg line {
+	stroke-width: 10;
+	stroke: white;
+	fill: none;
+	stroke-dasharray: 500;
+	-webkit-transition: -webkit-transform .6s ease-out;
+	transition: transform .6s ease-out;
+}
+svg line.bottom, svg line.top{
+	stroke-dasharray: 800 !important;
+}
+svg.cloud {
+    z-index: 0;
+    position: relative;
+    opacity: 0.25;
+}
+svg circle, svg rect {
+    fill: grey;
+}
+ul.anime:hover svg line {
+	-webkit-transform: translateX(-400px);
+	transform: translateX(-400px);
+}
+ul.anime:hover svg line.top {
+  -webkit-transform: translateX(-400px);
+  transform: translateX(-400px);
+}
+
+ul.anime:hover svg line.bottom {
+  -webkit-transform: translateX(400px);
+  transform: translateX(400px);
+}
+
+ul.anime:hover svg line.left {
+  -webkit-transform: translateY(400px);
+  transform: translateY(400px);
+}
+
+ul.anime:hover svg line.right {
+  -webkit-transform: translateY(-400px);
+  transform: translateY(-400px);
+}
+/* 			end  			*/
+.picto {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-bottom: 15px
+}
+.picto.linkedin {
+	background: url(img/linkedin.png) no-repeat;
+	background-size: contain;
+}
+.picto.github {
+	background: url(img/git.png) no-repeat;
+	background-size: contain;
+}
+@media print, @media screen and (max-width: 1000px){
+	#logo {
+    	width: 20vw;
+    	height: 20vw;
+	    margin: 6vw 40vw 4vw 40vw;
+	}
+	#contact.white ul li {
+    	width: 30%;
+    	margin-bottom: 40px;
+	}
+	#contact ul {
+		text-align: center
+	}
+	@media print, @media screen and (max-width: 770px){
+		nav a {
+    		margin-left: 10px;
+    		font-size: 1em;
+    		padding: 8px;
+		}
+		#about ul {
+			width: 45%;
+			min-width: 150px;
+			padding: 1%;
+		}
+		.date {
+    		height: unset;
+    	}
+    	ul#experience.school {
+    		width: 100%;
+    	}
+    	 ul#benevol, ul#experience {
+    		width: 49%;
+    		padding: 5px 5px 5px 25px;
+		}
+	}
+}
+@media print {
+    header, ul, li, h1, h2, h3, h4, h5, div.white, li.experience, div#competence div, ul.anime, ul.anime li, .more, .more > .description, .more > .description > .div {
+        padding: 0 !important;
+        float: none !important;
+        position: relative !important;
+        width: 100% !important;
+        display: block !important;
+        margin: auto !important;
+        height: auto !important;
+    }
+    .more:before {
+        display:none;
+    }
+    h4, h5, ul {
+        padding-top: 2.25vh!important;
+        padding-bottom: 1vh!important;
+    }
+    .cloud, #nav, #logo{
+        display: none;
+    }
+    footer {
+        position: fixed !important;
+        bottom: 0;
+        right: 0;
+    }
+}

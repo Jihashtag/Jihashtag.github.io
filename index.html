@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166055338-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-166055338-1');
+</script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Bert Jean-Alexandre</title>
+  <meta property="og:image" content="img/favicon.png">
+  <meta property="og:title" content="Jean-Alexandre Bert">
+  <meta property="og:type" content="profile">
+  <meta property="profile:first_name" content="Jean-Alexandre">
+  <meta property="profile:last_name" content="Bert">
+  <meta property="profile:username" content="Jihashtag">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Jean-Alexandre Bert">
+  <!-- <meta property="og:url" content="https://jihashtag.github.io"> -->
+  <meta name="twitter:title" content="Jean-Alexandre Bert">
+  <!-- <meta name="twitter:url" content="https://jihashtag.github.io"> -->
+  <meta name="twitter:card" content="summary">
+  <!-- <link rel="canonical" href="https://jihashtag.github.io">
+  <link rel="alternate" href="https://jihashtag.github.io" hreflang="fr"> -->
+  <meta name="author" content="Jean-Alexandre Bert">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="header">
+	<div id="battery">
+		<span id="wifi"></span>
+			<p>13:12:1995</p>
+		<span id="batt"></span>
+	</div>
+	<div id="logo"></div>
+	<h1>Jean - Alexandre Bert</h1>
+	<h2>Architecte en technologies numériques </h2>
+	<h2 id="comp">Réseaux | Systèmes | Logiciels | Applications</h2>
+</header>
+<nav id="nav">
+	<a href="#about">à propos</a>
+	<a href="#competence">compétences</a>
+	<a href="#experience">expériences professionnelles</a>
+	<a href="#ref">formations</a>
+	<a href="#contact">contact</a>
+</nav>
+<h4>à propos</h4>
+<div id="about" class="white">
+	<ul id="motiv">
+	</ul>
+	<ul id="passion">
+	</ul>
+	<ul id="autres">
+	</ul>
+	<ul id="languages">
+	</ul>
+</div>
+<h4>expériences professionnelles</h4>
+<div id="experience" class="white">
+	<ul id="jobs">
+	</ul>
+</div>
+<h4>bénévolat</h4>
+<div id="xp" class="white">
+	<ul id="benevol">
+		<li class="experience">
+			<div class="date">2014-16</div>
+			<div class="poste">Mairie de Rueil-Malmaison
+				<div class="description">Chargé de soutien scolaire et Animateur au sein du service jeunesse, bénévole puis à temps partiel</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<h4>compétences</h4>
+<div class="white" id="competence">
+	<div>
+	<h5>Système</h5>
+		<ul class="anime" id="system">
+		</ul>
+	<h5>Code</h5>
+		<ul class="anime" id="prog">
+		</ul>
+	<h5>Gestion de données</h5>
+		<ul class="anime" id="data">
+		</ul>
+    <h5>notions</h5>
+		<ul class="anime" id="notions">
+		</ul>
+	</div><div>
+    <h5>Applicatif</h5>
+        <ul class="anime" id="app">
+        </ul>
+	<h5>Outils</h5>
+		<ul class="anime" id="tools">
+		</ul>
+	</div>
+</div>
+<h4>Formations</h4>
+<div id="ref" class="white">
+	<ul id="experience" class="school">
+		<li class="experience">
+			<div class="date">2013-17</div>
+			<div class="poste">École 42
+				<div class="description">Certification d’architecte en Technologies du Numérique.</div>
+			</div>
+		</li>
+		<li class="experience">
+			<div class="date">2017-18</div>
+			<div class="poste">Lycée Richelieu
+				<div class="description">Baccalauréat Série S spécialité Sciences du Numérique.</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<h4 class="lastH4">Contact</h4>
+<div id="contact" class="white">
+	<ul>
+		<li>
+            <a href="https://www.linkedin.com/in/jean-alexandre-bert/">
+                <span class="picto linkedin"></span><br>
+                linkedin.com/in/<b>jean-alexandre-bert</b>/
+            </a>
+        </li>
+		<li>
+            <a href="https://github.com/Jihashtag">
+                <span class="picto github"></span><br>
+                github.com/Jihashtag
+            </a>
+        </li>
+		<li>
+            <a href="https://github.com/Ja-Bert">
+                <span class="picto github"></span><br>
+                github.com/Ja-Bert
+            </a>
+        </li>
+	</ul>
+</div>
+<footer>
+<span style="float:right;"><i style="color: white;font-style: italic;">© 2020 <b>Jean-Alexandre Bert</b>, <b>All Rights Reserved</b></i></span>
+</footer>
+<script>
+var loc = window.location.pathname;
+loc = loc.substring(0, loc.lastIndexOf('/'));
+var nav_header = document.getElementById("nav");
+var header = document.getElementById("header");
+function scrolled(){
+	var headerHeight = header.offsetHeight;
+    var currentScroll = document.body.scrollTop || document.documentElement.scrollTop;
+	nav_header.className = (currentScroll >= headerHeight) ? "fixed" : "";
+}
+
+addEventListener("scroll", scrolled, false);
+
+function json_query(url) {
+    var req = new XMLHttpRequest(); // a new request
+    req.open("GET", url, false);
+    req.send(null);
+    return JSON.parse(req.responseText);
+}
+
+function loadComp(comp_type, img) {
+    const competences = json_query(loc + "/json/"+ comp_type +".json");
+    for (comp_name in competences) {
+        comps = competences[comp_name];
+        elem = document.getElementById(comp_name);
+        if (img) {
+            elem.innerHTML = '<svg width="100%" height="100%"><line class="top" x1="0" y1="0" x2="100%" y2="0"/><line class="left" x1="0" y1="100%" x2="0" y2="-400"/><line class="bottom" x1="100%" y1="100%" x2="-400" y2="100%"/><line class="right" x1="100%" y1="0" x2="100%" y2="600"/></svg>';
+        }
+        comps.forEach(comp => {
+            var nli = document.createElement('li');
+            nli.innerHTML = comp;
+            elem.appendChild(nli);
+        });
+    }
+}
+function loadJobs() {
+    const exps = json_query(loc + "/json/xp.json")['postes'];
+    var expsElem = document.getElementById('jobs');
+    exps.forEach(j => {
+        var nli = document.createElement('li');
+        nli.className = "experience";
+
+        var desc = document.createElement('div');
+        desc.innerHTML = j['desc'];
+        desc.className = "description";
+
+        var dt = document.createElement('div');
+        dt.innerHTML = j['date'];
+        dt.className = "date";
+
+        var poste = document.createElement('div');
+        poste.className = "poste";
+        poste.innerHTML = j['title'];
+
+        var stack = document.createElement('span');
+        stack.className = "stack";
+        stack.innerHTML = j['stack'];
+
+        if (j['?']) {
+            var more = document.createElement('div');
+            more.className = "more";
+            var m_desc = document.createElement('div');
+            m_desc.className = "description";
+            m_desc.innerHTML = j['?']['desc'];
+            var m_exemples = document.createElement('div');
+            for (title in j['?']['exemples']) {
+                var titleDiv = document.createElement('h6');
+                titleDiv.className = "exempleTitle";
+                titleDiv.innerHTML = title;
+                var exemples = document.createElement('ul');
+                j['?']['exemples'][title].forEach(exemple => {
+                    var exElem = document.createElement('li');
+                    exElem.innerHTML = exemple;
+                    exemples.appendChild(exElem);
+                });
+                m_exemples.appendChild(titleDiv);
+                m_exemples.appendChild(exemples);
+            }
+            m_desc.appendChild(m_exemples);
+            more.appendChild(m_desc);
+            poste.appendChild(more);
+        }
+
+        desc.appendChild(stack);
+        poste.appendChild(desc);
+        nli.appendChild(dt);
+        nli.appendChild(poste);
+        expsElem.appendChild(nli)
+    });
+}
+loadComp("comp", true);
+loadComp("desc", false);
+loadJobs();
+
+function load_clouds() {
+    var clouds = ['<svg class="cloud" height="100" width="150"><rect x="50" y="25" width="50" height="50" /><circle cx="55" cy="25" r="25" /><circle cx="95" cy="25" r="25" /><circle cx="25" cy="50" r="25" /><circle cx="125" cy="50" r="25"/><circle cx="55" cy="75" r="25" /><circle cx="95" cy="75" r="25" /></svg>', '<svg class="cloud" height="100" width="150"><rect x="25" y="25" width="95" height="50" /><circle cx="55" cy="25" r="25" /><circle cx="95" cy="25" r="25" /><circle cx="25" cy="50" r="25" /><circle cx="125" cy="50" r="25"/></svg>'];
+    var i = 0;
+    while (i <= 20) {
+        var freq = Math.floor(Math.random() * 5) + 5;
+        var cloud_container = document.createElement('div');
+        cloud_container.innerHTML = clouds[Math.floor(Math.random() * 2)];
+        cloud_container.style = "position:absolute;top:0;left:0;"
+        cloud_mover = (cloud_container) => {
+            var top_val = Math.floor(Math.random() * (document.body.clientHeight - 100));
+            var left = Math.floor(Math.random() * (document.body.clientWidth - 150));
+            return () => {
+                cloud_container.firstChild.style = "top: " + top_val + "px;left: " + left + "px;";
+                left += 1;
+                if (left + 150 >= document.body.clientWidth) {
+                    left = 0;
+                    top_val = Math.floor(Math.random() * (document.body.clientHeight - 100));
+                }
+            };
+        };
+        document.body.appendChild(cloud_container);
+        setInterval(cloud_mover(cloud_container), 10 * freq);
+        i += 1;
+    }
+}
+load_clouds();
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+    "system": [
+        "Systèmes Unix et AWS",
+        "Compilation de noyaux",
+        "LFS/compilation de paquets",
+        "Protocoles(TCP/UDP...)"
+    ],
+    "prog": [
+        "C / Kernel Linux",
+        "Python",
+        "Shell UNIX / Scripting",
+        "PHP",
+        "Assembleur (asm/nasm)",
+        "JS / TS",
+        "Vimscript"
+    ],
+    "app": [
+        "kivy",
+        "chalice",
+        "Javascript / TypeScript / NativeScript",
+        "Node.js",
+        "Angular / Jquery / React",
+        "Django / Flask",
+        "Serveurs Apache / Nginx",
+        "Mailing (HTML, SMTP, IMAP, POP)",
+        "Protocoles (HTTP/SSL...)",
+        "HTML5 / CSS3",
+        "Wordpress",
+        "Aws Cloud / EC2 / Lambda"
+    ],
+    "data": [
+        "SQL / MySQL / PostgreSQL",
+        "ElasticSearch / Kibana",
+        "NoSQL (mongodb, csv, json, dynamodb ...)"
+    ],
+    "tools": [
+        "git / Github / Gitlab / Bitbucket",
+        "Ansible, Terraform, Jenkins",
+        "Amazon Webservices",
+        "Docker, VirtualBox, VmWare",
+        "Lamp / Wamp",
+        "iproute2, tcpdump, ip",
+        "ssh / sftp / ftp, telnet, nc",
+        "openssl, dd, torsocks",
+        "nmap, wireshark, traceroute, ping",
+        "flake8, pytest, tig, diff / patch",
+        "readelf, patchelf, hexdump / objdump",
+        "apt/yum/pip/npm/pkgtool",
+        "gimp / inkscape"
+    ],
+    "notions": [
+        "java",
+        "C++",
+        "C#",
+        "perl",
+        "ruby"
+    ]
+}

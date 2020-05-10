@@ -1,0 +1,26 @@
+{
+    "motiv": [
+        "Agile",
+		"Curieux",
+		"Autonome",
+        "Bon public"
+    ],
+    "passion": [
+        "Open-minded",
+        "Devops-Minded",
+        "Python fanboy",
+        "Linux passionate"
+    ],
+    "autres": [
+        "Friand de nouvelles technos",
+        "Friand de connaissances",
+        "Friand de défis",
+        "Friand de jeux de mots<!--Friand de friands-->"
+    ],
+    "languages": [
+        "Anglais - courant et technique",
+        "Français - maternel",
+        "Espagnol - scolaire",
+        ""
+    ]
+}

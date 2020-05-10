@@ -1,0 +1,169 @@
+{
+    "postes": [
+    {
+        "title": "Ingénieur <b>DevOps</b>, VWIS",
+        "date": "2020-ajd",
+        "desc": "",
+        "stack": "AWS, GCP, Python, PHP, Angular, Jenkins, Ansible, Terraform, Bitbucket",
+        "?": {
+            "desc": "VWIS (Veolia Water Information Systems) est l'entreprise numérique de la Direction des Systèmes d'Information de Veolia Eau France.",
+            "exemples": {
+            }
+        }
+    },
+    {
+        "title": "Ingénieur consultant, Extia",
+        "date": "2020-ajd",
+        "desc": "",
+        "stack": "",
+        "?": {
+            "desc": "Extia est une société de Conseil en Ingénierie favorisant le management agile et le bien-être au travail.",
+            "exemples": {
+            }
+        }
+    },
+    {
+        "title": "<b>Développeur chef de projet</b>, Polyconseil",
+        "date": "2019",
+        "desc": "Automatisation, Développement, Formation des profils juniors, Gestion des releases et déploiements de projets internes/open-source",
+        "stack": "Aws, Python, Django, ElasticSearch, PostgreSQL, Github, Gitlab, React, Jenkins",
+        "?": {
+            "desc": "Polyconseil est une ESN (ex-SII) filiale du groupe Bolloré.",
+            "exemples": {
+                "Django-mds": [
+                    "Maintenance de l'application en Python et ajout de tests unitaires",
+                    "Amélioration de l'API Rest",
+                    "Ajout de la gestion des trajets et télémétries des véhicules",
+                    "Développement d'un outil de simulation d'événements et de trajets en Python"
+                ],
+                "Projet Smart Mobility Platform": [
+                    "Amélioration du front-end de la plateforme en ReactNative",
+                    "Ajout de fonctionnalités sur le back-end en Python",
+                    "Ajout de tests unitaires Jest et Pytest"
+                ],
+                "Opérationnel": [
+                    "Déploiements des outils associés aux projets via les CI/CD Gitlab, Github et Jenkins",
+                    "Monitoring des instances via Kubernetes",
+                    "Amélioration des DockerFile"
+                ],
+                "Formation": [
+                    "Formation des nouveaux développeurs juniors en Python, vulgarisation et base du Python pour les AMOAs",
+                    "Initiation des nouveaux arrivant à ElasticSearch",
+                    "Vulgarisation d'architecture projet pour AMOAs juniors"
+                ]
+            }
+        }
+    },
+    {
+        "title": "<b>Développeur FullStack</b>, Kwyk",
+        "date": "2018-19",
+        "desc": "Administration système, Automatisation, Développement, Création de la plateforme numérique des manuels du groupe Hachette",
+        "stack": "Python, Django, AWS, JQuery, PostgreSQL, csv, json",
+        "?": {
+            "desc": "Kwyk est une filiale du groupe Hachette/Lagardère et un site d'entrainement en mathématiques proposant des exercices contextualisés, générés aléatoirement en Français/Maths/Physique du collège au lycée.",
+            "exemples": {
+                "Kwyk.fr": [
+                    "Maintenance du back-end en Python et du front en Jquery",
+                    "Optimisation des requêtes Django à la base de donnée PostgreSQL",
+                    "Intégration et amélioration des outils de reconnaissance syntaxique avec Scapy et LanguageTool",
+                    "Amélioration de la compatibilité entre les navigateurs",
+                    "Création d'exercices avec les librairies interne et NumPy"
+                ],
+                "Manuels numériques du groupe Hachette": [
+                    "Création des plateformes numériques des manuels Hachette et de ses filiales",
+                    "Création des pages d'accueils des manuels en HTML"
+                ],
+                "Opérationnel": [
+                    "Amélioration et gestion des infrastructue AWS",
+                    "Gestion de backups et  du scaling EC2",
+                    "Mise en place des plateformes AWS des manuels du groupe Hachette",
+                    "Automatisation des déploiements Autoscaling AWS",
+                    "Amélioration de scripts interne de déploiements"
+                ],
+                "Formation": [
+                    "Formation de développeurs juniors en Python"
+                ]
+            }
+        }
+    },
+    {
+        "title": "<b>LeadDev</b> et consultant, Shapeshift",
+        "date": "2017-18",
+        "desc": "<b>Administration système et réseau</b>, Conseils, Développement web, ...",
+        "stack": "Python, PHP, MySQL, csv, json, OVH (dédiés/vps)",
+        "?": {
+            "desc": "L'agence Shapeshift est une agence de communication digitale qui s'oriente vers plus de développement.",
+            "exemples": {
+                "CampusMenicon.fr": [
+                    "Création de la base de donnée MySQL",
+                    "Création d'un outil d'export vers PDF en PHP",
+                    "Création du Back-End en PHP",
+                    "Intégration d'APIs gotowebinar, Twillio"
+                ],
+                "Interne": [
+                    "Scripts d'automatisation de taches en Python et Shell",
+                    "Scripts de crawl et scraping en Python",
+                    "Mise en place d'infrastructures",
+                    "Mise en place d'un NAS"
+                ],
+                "Opérationnel": [
+                    "Configuration d'Apache et Nginx",
+                    "Déploiements de plateformes et maintenances sur serveurs Sewan et OVH",
+                    "Mise en place d'un DynDNS"
+                ]
+            }
+        }
+    },
+    {
+        "title": "<b>Responsable Informatique</b>, Martingale",
+        "date": "2017-18",
+        "desc": "<b>Administration système</b>, <b>création de sites</b> et de l'application web \"Goprof\"",
+        "stack": "PHP, Nativescript, Typescript, MySQL, json",
+        "?": {
+            "desc": "Martingale est une start-up spécialisée dans le soutien scolaire.",
+            "exemples": {
+                "goprof.fr": [
+                    "Création et gestion des outils d'analytics Google & Facebook Analytics",
+                    "Création du Front-End en HTML/CSS"
+                ],
+                "Serious Game": [
+                    "Versions beta de jeux éducatifs cross plateforme en NativeScript"
+                ],
+                "Applicatif": [
+                    "Adaptation de l'app IOS goprof pour Android et navigateurs en TypeScript"
+                ]
+            }
+        }
+    },
+    {
+        "title": "<b>Développeur FullStack</b>, Karos",
+        "date": "2017",
+        "desc": "<b>Développement web</b>, <b>SEO/UX</b>, Création de services BtoB",
+        "stack": "Python, Django, Angular, mongoDB, OVH, GoogleCloud SQL",
+        "?": {
+            "desc": "L'entreprise Karos est une entreprise dédiée au covoiturage, spécialisée dans les trajets courts.",
+            "exemples": {
+                "Karos.fr": [
+                    "Amélioration du chargement des pages",
+                    "Amélioration du SEO et de l'UX du le site karos.fr",
+                    "Amélioration de la compatibilité entre navigateurs"
+                ],
+                "Lancement du BtoB Karos": [
+                    "Création d'un service de BtoB d'analyse statistique de l'utilisation de Karos en entreprise",
+                    "Création de la base de donnée GoogleCloudSQL",
+                    "Création du back-end Python du service",
+                    "Création du front-end du service avec Angular",
+                    "Représentation graphique des données avec Chart.js",
+                    "Connection aux API REST internes"
+                ]
+            }
+        }
+    },
+    {
+        "title": "Logisticien, École 42",
+        "date": "2015-17",
+        "desc": "Temps partiel maintenance technique",
+        "stack": ""
+    }
+    ]
+}
