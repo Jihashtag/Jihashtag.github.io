@@ -106,6 +106,11 @@ header {
 	background-position: right;
 	float: right;
 }
+a, p {
+    position: relative;
+    z-index: 2;
+    word-wrap: break-word;
+}
 header p {
 	display: inline-block;
 	width: 39%;
@@ -451,7 +456,7 @@ ul.anime:hover svg line.right {
 	background: url(img/git.png) no-repeat;
 	background-size: contain;
 }
-@media print, @media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px), @media print {
 	#logo {
     	width: 20vw;
     	height: 20vw;
@@ -464,28 +469,42 @@ ul.anime:hover svg line.right {
 	#contact ul {
 		text-align: center
 	}
-	@media print, @media screen and (max-width: 770px){
-		nav a {
-    		margin-left: 10px;
-    		font-size: 1em;
-    		padding: 8px;
-		}
-		#about ul {
-			width: 45%;
-			min-width: 150px;
-			padding: 1%;
-		}
-		.date {
-    		height: unset;
-    	}
-    	ul#experience.school {
-    		width: 100%;
-    	}
-    	 ul#benevol, ul#experience {
-    		width: 49%;
-    		padding: 5px 5px 5px 25px;
-		}
-	}
+    .date {
+        height: unset;
+    }
+    nav a {
+        padding: 2%;
+        display: inline-block;
+        width: 27%;
+        margin: auto;
+        vertical-align: text-top;
+    }
+    nav#nav {
+        height: auto;
+    }
+    ul li {
+        font-weight: normal;
+    }
+    #about ul {
+        width: 45%;
+        min-width: 150px;
+        padding: 1%;
+    }
+    .poste {
+        width: 100%;
+    }
+    ul#experience.school {
+        width: 100%;
+    }
+    #competence div {
+        width: 100%;
+        float:none!important;
+    }
+    ul#benevol, ul#experience, ul#jobs, #competence ul.anime {
+        width: 100%;
+        padding: 5px 5px 5px 25px;
+        display:block;
+    }
 }
 @media print {
     header, ul, li, h1, h2, h3, h4, h5, div.white, li.experience, div#competence div, ul.anime, ul.anime li, .more, .more > .description, .more > .description > .div {

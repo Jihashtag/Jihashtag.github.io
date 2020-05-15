@@ -7,7 +7,7 @@
     ],
     "prog": [
         "C / Kernel Linux",
-        "Python",
+        "<b>Python</b>",
         "Shell UNIX / Scripting",
         "PHP",
         "Assembleur (asm/nasm)",
@@ -26,7 +26,7 @@
         "Protocoles (HTTP/SSL...)",
         "HTML5 / CSS3",
         "Wordpress",
-        "Aws Cloud / EC2 / Lambda"
+        "<b>Aws</b> <b>Cloud</b> / <b>EC2</b> / <b>Lambda</b>"
     ],
     "data": [
         "SQL / MySQL / PostgreSQL",
@@ -36,7 +36,7 @@
     "tools": [
         "git / Github / Gitlab / Bitbucket",
         "Ansible, Terraform, Jenkins",
-        "Amazon Webservices",
+        "<b>Amazon Webservices</b>",
         "Docker, VirtualBox, VmWare",
         "Lamp / Wamp",
         "iproute2, tcpdump, ip",
@@ -49,7 +49,7 @@
         "gimp / inkscape"
     ],
     "notions": [
-        "java",
+        "Java",
         "C++",
         "C#",
         "perl",
