@@ -3,11 +3,44 @@
     {
         "title": "Ingénieur <b>DevOps</b>, VWIS",
         "date": "2020-ajd",
-        "desc": "",
-        "stack": "<b>AWS</b>, GCP, <b>Python</b>, PHP, Angular, <b>Jenkins</b>, <b>Ansible</b>, <b>Terraform</b>, Bitbucket",
+        "desc": "<b>Automatisation</b>, <b>Développement<b/>, Maintenance applicative, Gestion des releases, déploiements, architectures",
+        "stack": "<b>Cloud</b> <b>AWS</b> et <b>GCP</b>, <b>Python</b>, PHP, Angular, <b>Jenkins</b>, <b>Ansible</b>, <b>Terraform</b>, Bitbucket, Django, <b>AppEngine</b>, <b>BigQuery</b>, <b>Cloud SQL</b>,<b>Cloud Functions</b>, EC2, <b>AWS Lambda</b>, <b>CloudFront</b>",
         "?": {
             "desc": "VWIS (Veolia Water Information Systems) est l'entreprise numérique de la Direction des Systèmes d'Information de Veolia Eau France.",
             "exemples": {
+                "VAC (IHM) - Gestion de contrats": [
+                    "Refonte du projet, utilisation de modèles pour la base de donnée, création d'un mode de migration, création de librairies utilisées par l'IHM (chalice) et les lambda(AWS) et cloud functions(GCP)",
+                    "Mise à jour des dépendances et languages (Angular 7 à 11, Python2 à 3)",
+                    "Mise en vigueur de normes de propreté du code via Flake8 et Tslint",
+                    "Amélioration des pipelines de déploiements avec Jenkins et Terraform",
+                    "Mise en place de suites de tests unitaires et de non régressions.",
+                    "Mise en place de l'intégration et déploiement continus via Jenkins et Bitbucket",
+                    "Mise en place d'un reporting d'erreurs sur les interfaces et les flux",
+                    "Maintenance et Ajouts de fonctionnalités sur l'application Python/Angular et sur les flux d'alimentation de PowerBI (cloud function en Python) et de l'IHM (lambda en Python)",
+                    "Gestion du projet avec un dev DATA",
+                    "Gestion des retours utilisateurs"
+                ],
+                "CW - Gestion de paiements": [
+                    "Refonte de l'architecture (PowerBI ne pouvant gérer les volumes de données ne répondant plus aux exigences clients)",
+                    "Refonte des interfaces (lenteurs rendant la navigation impossible pour les clients)",
+                    "Reprise de l'alimentation des données afin d'améliorer la qualité et cohérence des données  et pour permettre de monitorer les flux",
+                    "Mise en place de normes de code et de suites de tests unitaires et de non régressions.",
+                    "Mise en place de pipelines d'intégration et déploiement continus",
+                    "Mise en place d'un reporting d'erreurs sur les interfaces et les flux",
+                    "Maintenance et Ajouts de fonctionnalités sur l'application Python/Angular et des les flux d'alimentation de l'application (cloud function en Python)",
+                    "Gestion du projet en autonomie",
+                    "Gestion des retours des key-users"
+                ],
+                "QRSTOCK - Gestion de stocks": [
+                    "Mise à jour des dépendances et languages (php4 à 7, ubuntu 14 à 18, puis 20)",
+                    "Mise en place de pipelines de déploiement continu avec Jenkins, Terraform et Ansible",
+                    "Maintenance sur l'application en PHP/JQuery"
+                ],
+                "NRF - Nouvel outil de Reporting Financier": [
+                    "Création des objets métiers (Tables/Vues Bigquery)",
+                    "Spécification des objets métiers",
+                    "Alimentation et création des flux côté groupe"
+                ]
             }
         }
     },

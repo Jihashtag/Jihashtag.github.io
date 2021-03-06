@@ -1,6 +1,6 @@
 {
     "system": [
-        "Systèmes Unix et AWS",
+        "Systèmes Unix, AWS, GCP",
         "Compilation de noyaux",
         "LFS/compilation de paquets",
         "Protocoles(TCP/UDP...)"
@@ -10,6 +10,7 @@
         "<b>Python</b>",
         "Shell UNIX / Scripting",
         "PHP",
+        "Java",
         "Assembleur (asm/nasm)",
         "JS / TS",
         "Vimscript"
@@ -26,30 +27,32 @@
         "Protocoles (HTTP/SSL...)",
         "HTML5 / CSS3",
         "Wordpress",
-        "<b>Aws</b> <b>Cloud</b> / <b>EC2</b> / <b>Lambda</b>"
+        "<b>Aws</b> <b>Cloud</b> / <b>EC2</b>, <b>Lambda</b>, <b>S3</b>,...",
+        "<b>Google</b> <b>Cloud</b> / <b>BigQuery</b>, <b>App Engine</b>, <b>Cloud Functions</b>,... "
     ],
     "data": [
-        "SQL / MySQL / PostgreSQL",
+        "SQL / MySQL / PostgreSQL / BigQuery",
         "ElasticSearch / Kibana",
-        "NoSQL (mongodb, csv, json, dynamodb ...)"
+        "NoSQL (MongoDB, csv, JSON, DynamoDB ...)"
     ],
     "tools": [
         "git / Github / Gitlab / Bitbucket",
         "Ansible, Terraform, Jenkins",
         "<b>Amazon Webservices</b>",
+        "<b>Google Cloud Platform</b>",
+        "Jira / Trello",
         "Docker, VirtualBox, VmWare",
         "Lamp / Wamp",
         "iproute2, tcpdump, ip",
         "ssh / sftp / ftp, telnet, nc",
         "openssl, dd, torsocks",
         "nmap, wireshark, traceroute, ping",
-        "flake8, pytest, tig, diff / patch",
+        "bash, flake8, pytest, tig, diff / patch",
         "readelf, patchelf, hexdump / objdump",
         "apt/yum/pip/npm/pkgtool",
         "gimp / inkscape"
     ],
     "notions": [
-        "Java",
         "C++",
         "C#",
         "perl",
