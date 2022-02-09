@@ -1,55 +1,55 @@
 {
     "system": [
-        "Systèmes Unix, AWS, GCP",
+        "<b>Cloud</b> en virtualisation et <b>Cloud Serveless</b> (<b>AWS</b> / <b>GCP</b>)",
+        "Systèmes Unix",
         "Compilation de noyaux",
         "LFS/compilation de paquets",
         "Protocoles(TCP/UDP...)"
     ],
     "prog": [
-        "C / Kernel Linux",
         "<b>Python</b>",
-        "Shell UNIX / Scripting",
+        "C / Kernel Linux",
+        "Scritpting (<b>Bash</b>/sh, batch)",
         "PHP",
         "Java",
-        "Assembleur (asm/nasm)",
+        "Node.js",
         "JS / TS",
-        "Vimscript"
+        "Assembleur (asm/nasm)"
     ],
     "app": [
-        "kivy",
-        "chalice",
-        "Javascript / TypeScript / NativeScript",
-        "Node.js",
-        "Angular / Jquery / React",
-        "Django / Flask",
+        "<b>Amazon Web Services</b>(<b>Aws</b>)...",
+        "<b>Google</b> <b>Cloud</b> Platform (<b>GCP</b>)",
         "Serveurs Apache / Nginx",
         "Mailing (HTML, SMTP, IMAP, POP)",
         "Protocoles (HTTP/SSL...)",
+        "Applications Android (Java/Kivy)",
+        "chalice",
+        "Javascript / TypeScript / NativeScript",
+        "Angular / Jquery / React",
+        "Django / Flask",
         "HTML5 / CSS3",
-        "Wordpress",
-        "<b>Aws</b> <b>Cloud</b> / <b>EC2</b>, <b>Lambda</b>, <b>S3</b>,...",
-        "<b>Google</b> <b>Cloud</b> / <b>BigQuery</b>, <b>App Engine</b>, <b>Cloud Functions</b>,... "
+        "Vimscript"
     ],
     "data": [
-        "SQL / MySQL / PostgreSQL / BigQuery",
+        "SQL / MySQL / PostgreSQL / <b>Google Cloud SQL</b> / BigQuery",
         "ElasticSearch / Kibana",
-        "NoSQL (MongoDB, csv, JSON, DynamoDB ...)"
+        "NoSQL (MongoDB, csv, JSON, DynamoDB)"
     ],
     "tools": [
+        "<b>Amazon Web Services</b> (<b>AWS</b>)",
+        "<b>Google Cloud Platform</b> (<b>GCP</b>)",
         "git / Github / Gitlab / Bitbucket",
         "Ansible, Terraform, Jenkins",
-        "<b>Amazon Webservices</b>",
-        "<b>Google Cloud Platform</b>",
+        "Docker, VirtualBox, VmWare, Kubernetes",
+        "bash, flake8, pytest, tig, diff / patch",
         "Jira / Trello",
-        "Docker, VirtualBox, VmWare",
         "Lamp / Wamp",
         "iproute2, tcpdump, ip",
         "ssh / sftp / ftp, telnet, nc",
         "openssl, dd, torsocks",
         "nmap, wireshark, traceroute, ping",
-        "bash, flake8, pytest, tig, diff / patch",
         "readelf, patchelf, hexdump / objdump",
-        "apt/yum/pip/npm/pkgtool",
+        "apt / yum / pip / npm / pkgtool",
         "gimp / inkscape"
     ],
     "notions": [
