@@ -1,7 +1,7 @@
 {
     "postes": [
     {
-        "title": "Agile Cloud Engineer - SFEIR",
+        "title": "Agile <b>Cloud Engineer</b> - SFEIR",
         "date": "2022 - ajd",
         "desc": "",
         "stack": "",
@@ -12,36 +12,36 @@
         }
     },
     {
-        "title": "Ingénieur <b>DevOps</b>, VWIS",
+        "title": "<b>Ingénieur</b> <b>DevOps</b>, VWIS",
         "date": "2020-2022",
-        "desc": "<b>Automatisation</b>, <b>Développement<b/>, Maintenance applicative, Gestion des releases, déploiements, architectures",
+        "desc": "<b>Automatisation</b>, Gestion de CI/CD, <b>Développement<b/>, Maintenance applicative, Gestion de releases, déploiements, <b>architectures</b>",
         "stack": "<b>Cloud</b> <b>AWS</b> et <b>GCP</b>, <b>Python</b>, PHP, Angular, <b>Jenkins</b>, <b>Ansible</b>, <b>Terraform</b>, Bitbucket, Django, <b>AppEngine</b>, <b>BigQuery</b>, <b>Cloud SQL</b>,<b>Cloud Functions</b>, EC2, <b>AWS Lambda</b>, <b>CloudFront</b>",
         "?": {
             "desc": "VWIS (Veolia Water Information Systems) est l'entreprise numérique de la Direction des Systèmes d'Information de Veolia Eau France.",
             "exemples": {
                 "Multi-projets - (<b>Cloud AWS</b> principalement)": [
                     "Mise en place et reprise de pipelines Jenkins et déploiements Terraform",
-                    "Mise sous Bastion",
+                    "Mises sous Bastion",
                     "Proxifications",
                     "Suivi manuel d'états et mises en place de solutions de monitoring",
                     "Maintenance et MAJ d'instances windows et linux"
                 ],
-                "VAC (Gestion de contrats) - ServerLess (AWS, GCP)": [
-                    "Refonte du projet, utilisation de modèles pour la base de donnée, création d'un mode de migration, création de librairies utilisées par l'IHM (chalice) et les lambda(AWS) et cloud functions(GCP)",
+                "VAC (Gestion de contrats) - ServerLess (<b>AWS</b>, <b>GCP</b>)": [
+                    "Refonte du projet, utilisation de modèles pour la base de donnée, création d'un mode de migration, création de librairies utilisées par l'interface (chalice), les lambda (<b>AWS</b>) et cloud functions(<b>GCP</b>)",
                     "Mise à jour des dépendances et languages (Angular 7 à 13, Python2 à 3)",
                     "Mise en vigueur de normes de propreté du code via Flake8 et Tslint",
                     "Amélioration des pipelines de déploiements avec Jenkins et Terraform",
                     "Mise en place + TMA de suites de tests unitaires et de non régressions.",
                     "Mise en place + TMA de l'intégration et déploiement continus via Jenkins et Bitbucket",
                     "Mise en place d'un reporting d'erreurs sur les interfaces et les flux",
-                    "Maintenance et Ajouts de fonctionnalités sur l'application Python/Angular et sur les flux d'alimentation de PowerBI (cloud function en Python) et de l'IHM (lambda en Python)",
-                    "Gestion du projet avec un dev DATA",
+                    "Maintenance et Ajouts de fonctionnalités sur l'application Python/Angular et sur les flux d'alimentation de PowerBI (cloud function en Python) et de l'API (lambda en Python)",
+                    "Gestion du projet avec un <b>développeur</b> \"DATA\"",
                     "Gestion des retours utilisateurs"
                 ],
                 "CW (Gestion de paiements) - ServerLess (full <b>GCP</b>)": [
-                    "Refonte de l'architecture (PowerBI ne pouvant gérer les volumes de données ne répondant plus aux exigences clients)",
+                    "Refonte de l'<b>architecture</b> (PowerBI ne pouvant gérer les volumes de données ne répondant plus aux exigences clients)",
                     "Refonte des interfaces (lenteurs rendant la navigation impossible pour les clients)",
-                    "Reprise de l'alimentation des données afin d'améliorer la qualité et cohérence des données  et pour permettre de monitorer les flux",
+                    "Reprise de l'alimentation des données afin d'améliorer la qualité et cohérence des données et pour permettre de monitorer les flux",
                     "Mise en place de normes de code et de suites de tests unitaires et de non régressions.",
                     "Mise en place + TMA de pipelines d'intégration et déploiement continus",
                     "Mise en place d'un reporting d'erreurs sur les interfaces et les flux",
@@ -61,21 +61,21 @@
                     "Alimentation et création des flux côté groupe"
                 ],
                 "Formation": [
-                    "Formation de l'équipe au mindset DevOps, déploiements continu",
-                    "Formation des devs à l'usage de Jenkins / git / Bitbucket",
+                    "Formation de l'équipe au mindset <b>DevOps</b>, <b>déploiements continu</b>, outils versionning",
+                    "Formation des <b>développeurs</b> à l'usage de Jenkins / git / Bitbucket",
                     "Formation de l'équipe au méthode de monitoring et gestions d'incidents",
-                    "Formation des devs aux bonnes pratiques"
+                    "Formation des <b>devs</b> aux bonnes pratiques"
                 ]
             }
         }
     },
     {
-        "title": "Ingénieur consultant, Extia",
+        "title": "<b>Ingénieur</b> consultant, Extia",
         "date": "2020-2022",
         "desc": "",
         "stack": "",
         "?": {
-            "desc": "Extia est une société de Conseil en Ingénierie favorisant le management agile et le bien-être au travail.",
+            "desc": "Extia est une société de Conseil en <b>Ingénieurie</b> favorisant le management agile et le bien-être au travail.",
             "exemples": {
             }
         }
@@ -92,7 +92,7 @@
                     "Maintenance de l'application en Python et ajout de tests unitaires",
                     "Amélioration de l'API Rest",
                     "Ajout de la gestion des trajets et télémétries des véhicules",
-                    "Développement d'un outil de simulation d'événements et de trajets en <b>Python</b>"
+                    "<b>Développement</b> d'un outil de simulation d'événements et de trajets en <b>Python</b>"
                 ],
                 "Projet Smart Mobility Platform": [
                     "Amélioration du front-end de la plateforme en ReactNative",
@@ -105,9 +105,9 @@
                     "Amélioration des <b>DockerFile</b>"
                 ],
                 "Formation": [
-                    "Formation des nouveaux développeurs juniors en Python, vulgarisation et base du Python pour les AMOAs",
+                    "Formation des nouveaux <b>développeurs</b> juniors en Python, vulgarisation et base du Python pour les AMOAs",
                     "Initiation des nouveaux arrivant à ElasticSearch",
-                    "Vulgarisation d'architecture projet pour AMOAs juniors"
+                    "Vulgarisation d'<b>architectures</b> projet pour AMOAs juniors"
                 ]
             }
         }
