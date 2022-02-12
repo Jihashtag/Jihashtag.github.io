@@ -49,6 +49,7 @@ table {
          url('fonts/bebasneue-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -57,6 +58,7 @@ table {
          url('fonts/LiberationSans.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 body {
@@ -266,6 +268,7 @@ ul#experience.school {
 	line-height: 1.3em;
 	width: 100%;
 	font-family: 'liberation';
+	font-weight: normal;
 	color: black
 }
 .more::before {
