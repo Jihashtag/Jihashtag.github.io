@@ -24,10 +24,11 @@
   <link rel="alternate" href="https://jihashtag.github.io/" hreflang="fr">
   <meta name="author" content="Jean-Alexandre Bert">
   <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preload" as="image" href="img/bg.jpg">
   <link rel="preload" as="font" href="fonts/bebasneue-regular-webfont.woff2" crossorigin="anonymous">
   <link rel="preload" as="font" href="fonts/LiberationSans.woff2" crossorigin="anonymous">
-  <link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=UA-166055338-1" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=UA-166055338-1">
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'"href="style.css">
 </head>
 <body tabIndex=0>
 <header id="header">
@@ -262,7 +263,7 @@ function load_clouds() {
         i += 1;
     }
 }
-load_clouds();
+window.onload = () => load_clouds();
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166055338-1"></script>
 <script>
