@@ -4,7 +4,7 @@
         "Systèmes Unix",
         "Compilation de noyaux",
         "LFS/compilation de paquets",
-        "Protocoles(TCP/UDP...)"
+        "Protocoles(TCP / UDP...)"
     ],
     "prog": [
         "<b>Python</b>",
@@ -14,7 +14,7 @@
         "Java",
         "Node.js",
         "JS / TS",
-        "Assembleur (asm/nasm)"
+        "Assembleur (asm / nasm)"
     ],
     "app": [
         "<b>Amazon Web Services</b>(<b>Aws</b>)...",
@@ -22,7 +22,7 @@
         "Serveurs Apache / Nginx",
         "Mailing (HTML, SMTP, IMAP, POP)",
         "Protocoles (HTTP/SSL...)",
-        "Applications Android (Java/Kivy)",
+        "Applications Android (Java / Kivy)",
         "chalice",
         "Javascript / TypeScript / NativeScript",
         "Angular / Jquery / React",
