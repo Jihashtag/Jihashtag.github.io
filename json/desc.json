@@ -1,26 +1,21 @@
 {
-    "motiv": [
-        "Agile",
-		"Curieux",
-		"Autonome",
-        "Bon public"
-    ],
-    "passion": [
-        "Open-minded",
-        "<b>Python</b> fanboy",
-        "<b>Devops</b>-Minded",
-        "Linux & Cloud passionate"
-    ],
-    "autres": [
-        "Friand de nouvelles technos",
-        "Friand de connaissances",
-        "Friand de défis",
-        "Friand de jeux de mots<!--Friand de friands-->"
-    ],
-    "languages": [
-        "Anglais - courant et technique",
-        "Français - maternel",
-        "Espagnol - scolaire",
-        ""
-    ]
+  "motiv": ["Agile", "Curieux", "Autonome", "Bon public"],
+  "passion": [
+    "Open-minded",
+    "<b>Python</b> fanboy",
+    "<b>Devops</b>-Minded",
+    "Linux & Cloud passionate"
+  ],
+  "autres": [
+    "Friand de nouvelles technos",
+    "Friand de connaissances",
+    "Friand de défis",
+    "Friand de jeux de mots<!--Friand de friands-->"
+  ],
+  "languages": [
+    "Anglais - courant et technique",
+    "Français - maternel",
+    "Espagnol - scolaire",
+    ""
+  ]
 }

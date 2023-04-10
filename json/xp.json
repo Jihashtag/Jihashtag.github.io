@@ -1,227 +1,235 @@
 {
-    "postes": [
+  "postes": [
     {
-        "title": "Agile <b>Cloud Engineer</b> - SFEIR",
-        "date": "2022 - ajd",
+      "title": "<b>Cloud Solution Architect</b> - Centre d'<b>expertise Cloud</b> de BPIFrance",
+      "date": "2022 - ajd",
+      "desc": "Au sein du Shared Service <b>Cloud</b> et du CCoE: maintenances des <b>Landing Zones</b>, formations, rédaction des doctrines, suivi et assistances de projets, automatisation des audits",
+      "stack": "<b>Cloud</b> <b>AWS</b>, <b>Gitlab</b>, <b>Jenkins</b>, <b>Python</b>, <b>Bash</b>",
+      "?": {
         "desc": "",
-        "stack": "",
-        "?": {
-            "desc": "",
-            "exemples": {
-            }
-        }
+        "exemples": {}
+      }
     },
     {
-        "title": "<b>Ingénieur</b> <b>DevOps</b>, VWIS",
-        "date": "2020-2022",
-        "desc": "<b>Automatisation</b>, Gestion de CI/CD, <b>Développement<b/>, Maintenance applicative, Gestion de releases, déploiements, <b>architectures</b>",
-        "stack": "<b>Cloud</b> <b>AWS</b> et <b>GCP</b>, <b>Python</b>, PHP, Angular, <b>Jenkins</b>, <b>Ansible</b>, <b>Terraform</b>, Bitbucket, Django, <b>AppEngine</b>, <b>BigQuery</b>, <b>Cloud SQL</b>,<b>Cloud Functions</b>, EC2, <b>AWS Lambda</b>, <b>CloudFront</b>",
-        "?": {
-            "desc": "VWIS (Veolia Water Information Systems) est l'entreprise numérique de la Direction des Systèmes d'Information de Veolia Eau France.",
-            "exemples": {
-                "Multi-projets - (<b>Cloud AWS</b> principalement)": [
-                    "Mise en place et reprise de pipelines Jenkins et déploiements Terraform",
-                    "Mises sous Bastion",
-                    "Proxifications",
-                    "Suivi manuel d'états et mises en place de solutions de monitoring",
-                    "Maintenance et MAJ d'instances windows et linux"
-                ],
-                "VAC (Gestion de contrats) - ServerLess (<b>AWS</b>, <b>GCP</b>)": [
-                    "Refonte du projet, utilisation de modèles pour la base de donnée, création d'un mode de migration, création de librairies utilisées par l'interface (chalice), les lambda (<b>AWS</b>) et cloud functions(<b>GCP</b>)",
-                    "Mise à jour des dépendances et languages (Angular 7 à 13, Python2 à 3)",
-                    "Mise en vigueur de normes de propreté du code via Flake8 et Tslint",
-                    "Amélioration des pipelines de déploiements avec Jenkins et Terraform",
-                    "Mise en place + TMA de suites de tests unitaires et de non régressions.",
-                    "Mise en place + TMA de l'intégration et déploiement continus via Jenkins et Bitbucket",
-                    "Mise en place d'un reporting d'erreurs sur les interfaces et les flux",
-                    "Maintenance et Ajouts de fonctionnalités sur l'application Python/Angular et sur les flux d'alimentation de PowerBI (cloud function en Python) et de l'API (lambda en Python)",
-                    "Gestion du projet avec un <b>développeur</b> \"DATA\"",
-                    "Gestion des retours utilisateurs"
-                ],
-                "CW (Gestion de paiements) - ServerLess (full <b>GCP</b>)": [
-                    "Refonte de l'<b>architecture</b> (PowerBI ne pouvant gérer les volumes de données ne répondant plus aux exigences clients)",
-                    "Refonte des interfaces (lenteurs rendant la navigation impossible pour les clients)",
-                    "Reprise de l'alimentation des données afin d'améliorer la qualité et cohérence des données et pour permettre de monitorer les flux",
-                    "Mise en place de normes de code et de suites de tests unitaires et de non régressions.",
-                    "Mise en place + TMA de pipelines d'intégration et déploiement continus",
-                    "Mise en place d'un reporting d'erreurs sur les interfaces et les flux",
-                    "Maintenance et Ajouts de fonctionnalités sur l'application Python/Angular et des les flux d'alimentation de l'application (cloud function en Python)",
-                    "Gestion du projet en autonomie",
-                    "Gestion des retours des key-users"
-                ],
-                "QRSTOCK (Gestion de stocks) - <b>Cloud AWS</b> et App Android": [
-                    "Mise à jour des dépendances et languages (php4 à 7, ubuntu 14 à 18, puis 20)",
-                    "Mise en place de pipelines de déploiement continu avec Jenkins, Terraform et Ansible",
-                    "Maintenance sur l'application en PHP/JQuery"
-                ],
-                "NRF (Outil de Reporting Financier) - ServerLess (GCP / PowerBI)": [
-                    "Mise en place de pipelines de déploiement continu avec Jenkins",
-                    "Création des objets métiers (Tables/Vues Bigquery)",
-                    "Spécification des objets métiers",
-                    "Alimentation et création des flux côté groupe"
-                ],
-                "Formation": [
-                    "Formation de l'équipe au mindset <b>DevOps</b>, <b>déploiements continu</b>, outils versionning",
-                    "Formation des <b>développeurs</b> à l'usage de Jenkins / git / Bitbucket",
-                    "Formation de l'équipe au méthode de monitoring et gestions d'incidents",
-                    "Formation des <b>devs</b> aux bonnes pratiques"
-                ]
-            }
-        }
-    },
-    {
-        "title": "<b>Ingénieur</b> consultant, Extia",
-        "date": "2020-2022",
+      "title": "Agile <b>Cloud Engineer</b> - SFEIR",
+      "date": "2022 - ajd",
+      "desc": "",
+      "stack": "",
+      "?": {
         "desc": "",
-        "stack": "",
-        "?": {
-            "desc": "Extia est une société de Conseil en <b>Ingénieurie</b> favorisant le management agile et le bien-être au travail.",
-            "exemples": {
-            }
-        }
+        "exemples": {}
+      }
     },
     {
-        "title": "<b>Développeur</b> chef de projet, Polyconseil",
-        "date": "2019",
-        "desc": "Automatisation, <b>Développement</b>, Formation des profils juniors, Gestion des releases et déploiements de projets internes/open-source",
-        "stack": "<b>Aws</b>, <b>Python</b>, Django, ElasticSearch, PostgreSQL, Github, Gitlab, React, <b>Jenkins</b>",
-        "?": {
-            "desc": "Polyconseil est une ESN (ex-SII) filiale du groupe Bolloré.",
-            "exemples": {
-                "Django-mds": [
-                    "Maintenance de l'application en Python et ajout de tests unitaires",
-                    "Amélioration de l'API Rest",
-                    "Ajout de la gestion des trajets et télémétries des véhicules",
-                    "<b>Développement</b> d'un outil de simulation d'événements et de trajets en <b>Python</b>"
-                ],
-                "Projet Smart Mobility Platform": [
-                    "Amélioration du front-end de la plateforme en ReactNative",
-                    "Ajout de fonctionnalités sur le back-end en <b>Python</b>",
-                    "Ajout de tests unitaires Jest et Pytest"
-                ],
-                "Opérationnel": [
-                    "Déploiements des outils associés aux projets via les CI/CD Gitlab, Github et <b>Jenkins</b>",
-                    "Monitoring des instances via Kubernetes",
-                    "Amélioration des <b>DockerFile</b>"
-                ],
-                "Formation": [
-                    "Formation des nouveaux <b>développeurs</b> juniors en Python, vulgarisation et base du Python pour les AMOAs",
-                    "Initiation des nouveaux arrivant à ElasticSearch",
-                    "Vulgarisation d'<b>architectures</b> projet pour AMOAs juniors"
-                ]
-            }
+      "title": "<b>Ingénieur</b> <b>DevOps</b>, VWIS (Veolia Water)",
+      "date": "2020-2022",
+      "desc": "<b>Automatisation</b>, Gestion de CI/CD, <b>Développement<b/>, Maintenance applicative, Gestion de releases, déploiements, <b>architectures</b>",
+      "stack": "<b>Cloud</b> <b>AWS</b> et <b>GCP</b>, <b>Python</b>, PHP, Angular, <b>Jenkins</b>, <b>Ansible</b>, <b>Terraform</b>, Bitbucket, Django",
+      "?": {
+        "desc": "VWIS (Veolia Water Information Systems) est l'entreprise numérique de la Direction des Systèmes d'Information de Veolia Eau France.",
+        "exemples": {
+          "Multi-projets - (<b>Cloud AWS</b> principalement)": [
+            "Mise en place et reprise de pipelines Jenkins et déploiements Terraform",
+            "Mises sous Bastion",
+            "Proxifications",
+            "Suivi manuel d'états et mises en place de solutions de monitoring",
+            "Maintenance et MAJ d'instances windows et linux"
+          ],
+          "VAC (Gestion de contrats) - ServerLess (<b>AWS</b>, <b>GCP</b>)": [
+            "Refonte du projet, utilisation de modèles pour la base de donnée, création d'un mode de migration, création de librairies utilisées par l'interface (chalice), les lambda (<b>AWS</b>) et cloud functions(<b>GCP</b>)",
+            "Mise à jour des dépendances et languages (Angular 7 à 13, Python2 à 3)",
+            "Mise en vigueur de normes de propreté du code via Flake8 et Tslint",
+            "Amélioration des pipelines de déploiements avec Jenkins et Terraform",
+            "Mise en place + TMA de suites de tests unitaires et de non régressions.",
+            "Mise en place + TMA de l'intégration et déploiement continus via Jenkins et Bitbucket",
+            "Mise en place d'un reporting d'erreurs sur les interfaces et les flux",
+            "Maintenance et Ajouts de fonctionnalités sur l'application Python/Angular et sur les flux d'alimentation de PowerBI (cloud function en Python) et de l'API (lambda en Python)",
+            "Gestion du projet avec un <b>développeur</b> \"DATA\"",
+            "Gestion des retours utilisateurs"
+          ],
+          "CW (Gestion de paiements) - ServerLess (full <b>GCP</b>)": [
+            "Refonte de l'<b>architecture</b> (PowerBI ne pouvant gérer les volumes de données ne répondant plus aux exigences clients)",
+            "Refonte des interfaces (lenteurs rendant la navigation impossible pour les clients)",
+            "Reprise de l'alimentation des données afin d'améliorer la qualité et cohérence des données et pour permettre de monitorer les flux",
+            "Mise en place de normes de code et de suites de tests unitaires et de non régressions.",
+            "Mise en place + TMA de pipelines d'intégration et déploiement continus",
+            "Mise en place d'un reporting d'erreurs sur les interfaces et les flux",
+            "Maintenance et Ajouts de fonctionnalités sur l'application Python/Angular et des les flux d'alimentation de l'application (cloud function en Python)",
+            "Gestion du projet en autonomie",
+            "Gestion des retours des key-users"
+          ],
+          "QRSTOCK (Gestion de stocks) - <b>Cloud AWS</b> et App Android": [
+            "Mise à jour des dépendances et languages (php4 à 7, ubuntu 14 à 18, puis 20)",
+            "Mise en place de pipelines de déploiement continu avec Jenkins, Terraform et Ansible",
+            "Maintenance sur l'application en PHP/JQuery"
+          ],
+          "NRF (Outil de Reporting Financier) - ServerLess (GCP / PowerBI)": [
+            "Mise en place de pipelines de déploiement continu avec Jenkins",
+            "Création des objets métiers (Tables/Vues Bigquery)",
+            "Spécification des objets métiers",
+            "Alimentation et création des flux côté groupe"
+          ],
+          "Formation": [
+            "Formation de l'équipe au mindset <b>DevOps</b>, <b>déploiements continu</b>, outils versionning",
+            "Formation des <b>développeurs</b> à l'usage de Jenkins / git / Bitbucket",
+            "Formation de l'équipe au méthode de monitoring et gestions d'incidents",
+            "Formation des <b>devs</b> aux bonnes pratiques"
+          ]
         }
+      }
     },
     {
-        "title": "<b>Développeur FullStack</b>, Kwyk",
-        "date": "2018-19",
-        "desc": "Administration système, Automatisation, Développement, Création de la plateforme numérique des manuels du groupe Hachette",
-        "stack": "<b>Python</b>, Django, <b>AWS</b>, JQuery, PostgreSQL, csv, json",
-        "?": {
-            "desc": "Kwyk est une filiale du groupe Hachette/Lagardère et un site d'entrainement en mathématiques proposant des exercices contextualisés, générés aléatoirement en Français/Maths/Physique du collège au lycée.",
-            "exemples": {
-                "Kwyk.fr": [
-                    "Maintenance du back-end en <b>Python</b> et du front en Jquery",
-                    "Optimisation des requêtes Django à la base de donnée PostgreSQL",
-                    "Intégration et amélioration des outils de reconnaissance syntaxique avec Scapy et LanguageTool",
-                    "Amélioration de la compatibilité entre les navigateurs",
-                    "Création d'exercices avec les librairies interne et NumPy"
-                ],
-                "Manuels numériques du groupe Hachette": [
-                    "Création des plateformes numériques des manuels Hachette et de ses filiales",
-                    "Création des pages d'accueils des manuels en HTML"
-                ],
-                "Opérationnel": [
-                    "Amélioration et gestion des infrastructue <b>AWS</b>",
-                    "Gestion de backups et  du scaling EC2",
-                    "Mise en place des plateformes <b>AWS</b> des manuels du groupe Hachette",
-                    "Automatisation des déploiements Autoscaling <b>AWS</b>",
-                    "Amélioration de scripts interne de déploiements"
-                ],
-                "Formation": [
-                    "Formation de <b>développeurs</b> juniors en <b>Python</b>"
-                ]
-            }
-        }
+      "title": "<b>Ingénieur</b> consultant, Extia",
+      "date": "2020-2022",
+      "desc": "Voir Mission <b>DevOps</b> chez VWIS",
+      "stack": "<b>Cloud</b> <b>AWS</b> et <b>GCP</b>, <b>Python</b>, PHP, Angular, <b>Jenkins</b>, <b>Ansible</b>, <b>Terraform</b>, Bitbucket, Django",
+      "?": {
+        "desc": "Extia est une société de Conseil en <b>Ingénieurie</b> favorisant le management agile et le bien-être au travail.",
+        "exemples": {}
+      }
     },
     {
-        "title": "<b>Lead Développeur</b> et consultant, Shapeshift",
-        "date": "2017-18",
-        "desc": "<b>Administration système et réseau</b>, Conseils, Automatisation, <b>Développement</b> web",
-        "stack": "<b>Python</b>, PHP, MySQL, csv, json, OVH (dédiés/vps)",
-        "?": {
-            "desc": "L'agence Shapeshift est une agence de communication digitale qui s'oriente vers plus de développement.",
-            "exemples": {
-                "CampusMenicon.fr": [
-                    "Création de la base de donnée MySQL",
-                    "Création d'un outil d'export vers PDF en PHP",
-                    "Création du Back-End en PHP",
-                    "Intégration d'APIs gotowebinar, Twillio"
-                ],
-                "Interne": [
-                    "Scripts d'automatisation de taches en Python et Shell",
-                    "Scripts de crawl et scraping en Python",
-                    "Mise en place d'infrastructures",
-                    "Mise en place d'un NAS"
-                ],
-                "Opérationnel": [
-                    "Configuration d'Apache et Nginx",
-                    "Déploiements de plateformes et maintenances sur serveurs Sewan et OVH",
-                    "Mise en place d'un DynDNS"
-                ]
-            }
+      "title": "<b>Développeur</b> chef de projet, Polyconseil",
+      "date": "2019",
+      "desc": "Automatisation, <b>Développement</b>, Formation des profils juniors, Gestion des releases et déploiements de projets internes/open-source",
+      "stack": "<b>AWS</b>, <b>Python</b>, Django, ElasticSearch, PostgreSQL, Github, Gitlab, React, <b>Jenkins</b>",
+      "?": {
+        "desc": "Polyconseil est une ESN (ex-SII) filiale du groupe Bolloré.",
+        "exemples": {
+          "Django-mds": [
+            "Maintenance de l'application en Python et ajout de tests unitaires",
+            "Amélioration de l'API Rest",
+            "Ajout de la gestion des trajets et télémétries des véhicules",
+            "<b>Développement</b> d'un outil de simulation d'événements et de trajets en <b>Python</b>"
+          ],
+          "Projet Smart Mobility Platform": [
+            "Amélioration du front-end de la plateforme en ReactNative",
+            "Ajout de fonctionnalités sur le back-end en <b>Python</b>",
+            "Ajout de tests unitaires Jest et Pytest"
+          ],
+          "Opérationnel": [
+            "Déploiements des outils associés aux projets via les CI/CD Gitlab, Github et <b>Jenkins</b>",
+            "Monitoring des instances via Kubernetes",
+            "Amélioration des <b>DockerFile</b>"
+          ],
+          "Formation": [
+            "Formation des nouveaux <b>développeurs</b> juniors en Python, vulgarisation et base du Python pour les AMOAs",
+            "Initiation des nouveaux arrivant à ElasticSearch",
+            "Vulgarisation d'<b>architectures</b> projet pour AMOAs juniors"
+          ]
         }
+      }
     },
     {
-        "title": "<b>Responsable Informatique</b>, Martingale",
-        "date": "2017-18",
-        "desc": "<b>Administration système</b>, <b>création de sites</b> et de l'application web \"Goprof\"",
-        "stack": "PHP, Nativescript, Typescript, MySQL, json",
-        "?": {
-            "desc": "Martingale est une start-up spécialisée dans le soutien scolaire.",
-            "exemples": {
-                "goprof.fr": [
-                    "Création et gestion des outils d'analytics Google & Facebook Analytics",
-                    "Création du Front-End en HTML/CSS"
-                ],
-                "Serious Game": [
-                    "Versions beta de jeux éducatifs cross plateforme en NativeScript"
-                ],
-                "Applicatif": [
-                    "Adaptation de l'app IOS goprof pour Android et navigateurs en TypeScript"
-                ]
-            }
+      "title": "<b>Développeur FullStack</b>, Kwyk",
+      "date": "2018-19",
+      "desc": "Administration système, Automatisation, Développement, Création de la plateforme numérique des manuels du groupe Hachette",
+      "stack": "<b>Python</b>, Django, <b>AWS</b>, JQuery, PostgreSQL, csv, json",
+      "?": {
+        "desc": "Kwyk est une filiale du groupe Hachette/Lagardère et un site d'entrainement en mathématiques proposant des exercices contextualisés, générés aléatoirement en Français/Maths/Physique du collège au lycée.",
+        "exemples": {
+          "Kwyk.fr": [
+            "Maintenance du back-end en <b>Python</b> et du front en Jquery",
+            "Optimisation des requêtes Django à la base de donnée PostgreSQL",
+            "Intégration et amélioration des outils de reconnaissance syntaxique avec Scapy et LanguageTool",
+            "Amélioration de la compatibilité entre les navigateurs",
+            "Création d'exercices avec les librairies interne et NumPy"
+          ],
+          "Manuels numériques du groupe Hachette": [
+            "Création des plateformes numériques des manuels Hachette et de ses filiales",
+            "Création des pages d'accueils des manuels en HTML"
+          ],
+          "Opérationnel": [
+            "Amélioration et gestion des infrastructue <b>AWS</b>",
+            "Gestion de backups et  du scaling EC2",
+            "Mise en place des plateformes <b>AWS</b> des manuels du groupe Hachette",
+            "Automatisation des déploiements Autoscaling <b>AWS</b>",
+            "Amélioration de scripts interne de déploiements"
+          ],
+          "Formation": [
+            "Formation de <b>développeurs</b> juniors en <b>Python</b>"
+          ]
         }
+      }
     },
     {
-        "title": "<b>Développeur</b> <b>FullStack</b>, Karos",
-        "date": "2017",
-        "desc": "<b>Développement</b> web, SEO/UX, Création de services BtoB",
-        "stack": "<b>Python</b>, Django, Angular, mongoDB, OVH, GoogleCloud SQL",
-        "?": {
-            "desc": "L'entreprise Karos est une entreprise dédiée au covoiturage, spécialisée dans les trajets courts.",
-            "exemples": {
-                "Karos.fr": [
-                    "Amélioration du chargement des pages",
-                    "Amélioration du SEO et de l'UX du le site karos.fr",
-                    "Amélioration de la compatibilité entre navigateurs"
-                ],
-                "Lancement du BtoB Karos": [
-                    "Création d'un service de BtoB d'analyse statistique de l'utilisation de Karos en entreprise",
-                    "Création de la base de donnée GoogleCloudSQL",
-                    "Création du <b>back-end</b> Python du service",
-                    "Création du front-end du service avec Angular",
-                    "Représentation graphique des données avec Chart.js",
-                    "Connection aux API REST internes"
-                ]
-            }
+      "title": "<b>Lead Développeur</b> et consultant, Shapeshift",
+      "date": "2017-18",
+      "desc": "<b>Administration système et réseau</b>, Conseils, Automatisation, <b>Développement</b> web, Application des bonnes pratiques <b>DevOps</b>",
+      "stack": "<b>Python</b>, PHP, MySQL, csv, json, OVH (dédiés/vps)",
+      "?": {
+        "desc": "L'agence Shapeshift est une agence de communication digitale qui s'oriente vers plus de développement.",
+        "exemples": {
+          "CampusMenicon.fr": [
+            "Création de la base de donnée MySQL",
+            "Création d'un outil d'export vers PDF en PHP",
+            "Création du Back-End en PHP",
+            "Intégration d'APIs gotowebinar, Twillio"
+          ],
+          "Interne": [
+            "Scripts d'automatisation de taches en Python et Shell",
+            "Scripts de crawl et scraping en Python",
+            "Mise en place d'infrastructures",
+            "Mise en place d'un NAS"
+          ],
+          "Opérationnel": [
+            "Configuration d'Apache et Nginx",
+            "Déploiements de plateformes et maintenances sur serveurs Sewan et OVH",
+            "Mise en place d'un DynDNS"
+          ]
         }
+      }
     },
     {
-        "title": "Logisticien, École 42",
-        "date": "2015-17",
-        "desc": "Temps partiel maintenance technique",
-        "stack": ""
+      "title": "<b>Responsable Informatique</b>, Martingale",
+      "date": "2017-18",
+      "desc": "<b>Administration système</b>, <b>création de sites</b> et de l'application web \"Goprof\"",
+      "stack": "PHP, Nativescript, Typescript, MySQL, json",
+      "?": {
+        "desc": "Martingale est une start-up spécialisée dans le soutien scolaire.",
+        "exemples": {
+          "goprof.fr": [
+            "Création et gestion des outils d'analytics Google & Facebook Analytics",
+            "Création du Front-End en HTML/CSS"
+          ],
+          "Serious Game": [
+            "Versions beta de jeux éducatifs cross plateforme en NativeScript"
+          ],
+          "Applicatif": [
+            "Adaptation de l'app IOS goprof pour Android et navigateurs en TypeScript"
+          ]
+        }
+      }
+    },
+    {
+      "title": "<b>Développeur</b> <b>FullStack</b>, Karos",
+      "date": "2017",
+      "desc": "<b>Développement</b> web, SEO/UX, Création de services BtoB, création de l'insfrastrucure sur le Cloud Google",
+      "stack": "<b>Python</b>, Django, Angular, mongoDB, OVH, GoogleCloud SQL",
+      "?": {
+        "desc": "L'entreprise Karos est une entreprise dédiée au covoiturage, spécialisée dans les trajets courts.",
+        "exemples": {
+          "Karos.fr": [
+            "Amélioration du chargement des pages",
+            "Amélioration du SEO et de l'UX du le site karos.fr",
+            "Amélioration de la compatibilité entre navigateurs"
+          ],
+          "Lancement du BtoB Karos": [
+            "Création d'un service de BtoB d'analyse statistique de l'utilisation de Karos en entreprise",
+            "Création de la base de donnée GoogleCloudSQL",
+            "Création du <b>back-end</b> Python du service",
+            "Création du front-end du service avec Angular",
+            "Représentation graphique des données avec Chart.js",
+            "Connection aux API REST internes"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Logisticien, École 42",
+      "date": "2015-17",
+      "desc": "Temps partiel maintenance technique",
+      "stack": ""
     }
-    ]
+  ]
 }

@@ -1,61 +1,48 @@
 {
-    "system": [
-        "<b>Cloud</b> en virtualisation et <b>Cloud Serveless</b> (<b>AWS</b> / <b>GCP</b>)",
-        "Systèmes Unix",
-        "Compilation de noyaux",
-        "LFS/compilation de paquets",
-        "Protocoles(TCP / UDP...)"
-    ],
-    "prog": [
-        "<b>Python</b>",
-        "C / Kernel Linux",
-        "Scritpting (<b>Bash</b>/sh, batch)",
-        "PHP",
-        "Java",
-        "Node.js",
-        "JS / TS",
-        "Assembleur (asm / nasm)"
-    ],
-    "app": [
-        "<b>Amazon Web Services</b>(<b>Aws</b>)...",
-        "<b>Google</b> <b>Cloud</b> Platform (<b>GCP</b>)",
-        "Serveurs Apache / Nginx",
-        "Mailing (HTML, SMTP, IMAP, POP)",
-        "Protocoles (HTTP/SSL...)",
-        "Applications Android (Java / Kivy)",
-        "chalice",
-        "Javascript / TypeScript / NativeScript",
-        "Angular / Jquery / React",
-        "Django / Flask",
-        "HTML5 / CSS3",
-        "Vimscript"
-    ],
-    "data": [
-        "SQL / MySQL / PostgreSQL / <b>Google Cloud SQL</b> / BigQuery",
-        "ElasticSearch / Kibana",
-        "NoSQL (MongoDB, csv, JSON, DynamoDB)"
-    ],
-    "tools": [
-        "<b>Amazon Web Services</b> (<b>AWS</b>)",
-        "<b>Google Cloud Platform</b> (<b>GCP</b>)",
-        "git / Github / Gitlab / Bitbucket",
-        "Ansible, Terraform, Jenkins",
-        "Docker, VirtualBox, VmWare, Kubernetes",
-        "bash, flake8, pytest, tig, diff / patch",
-        "Jira / Trello",
-        "Lamp / Wamp",
-        "iproute2, tcpdump, ip",
-        "ssh / sftp / ftp, telnet, nc",
-        "openssl, dd, torsocks",
-        "nmap, wireshark, traceroute, ping",
-        "readelf, patchelf, hexdump / objdump",
-        "apt / yum / pip / npm / pkgtool",
-        "gimp / inkscape"
-    ],
-    "notions": [
-        "C++",
-        "C#",
-        "perl",
-        "ruby"
-    ]
+  "system": [
+    "<b>Cloud</b> en virtualisation et <b>Cloud Serveless</b> (<b>AWS</b> / <b>GCP</b>)",
+    "Systèmes Unix",
+    "Compilation de noyaux",
+    "LFS/compilation de paquets",
+    "Protocoles(TCP / UDP...)"
+  ],
+  "prog": [
+    "<b>Python</b>",
+    "C / Kernel Linux",
+    "Scritpting (<b>Bash</b>/sh, batch)",
+    "<b>GO</b>, <b>Golang</b>",
+    "PHP",
+    "Java",
+    "Node.js",
+    "JS / TS",
+    "Assembleur (asm / nasm)"
+  ],
+  "app": [
+    "<b>Amazon Web Services</b>(<b>AWS</b>)...",
+    "<b>Google</b> <b>Cloud</b> Platform (<b>GCP</b>)",
+    "Serveurs Apache / Nginx",
+    "Mailing (SMTP, IMAP, POP)",
+    "Applications Android (Java / Kivy)",
+    "chalice",
+    "Javascript / TypeScript / NativeScript",
+    "Angular / Jquery / React",
+    "Django / Flask",
+    "HTML5 / CSS3",
+    "Vimscript"
+  ],
+  "data": [
+    "SQL / MySQL / PostgreSQL / <b>Google Cloud SQL</b> / BigQuery / <b>AWS</b> RDS / Athena",
+    "ElasticSearch / Kibana / S3",
+    "NoSQL (MongoDB, csv, JSON, DynamoDB)"
+  ],
+  "tools": [
+    "<b>Amazon Web Services</b> (<b>AWS</b>)",
+    "<b>Google Cloud Platform</b> (<b>GCP</b>)",
+    "git / Github / Gitlab / Bitbucket",
+    "Ansible, Terraform, Jenkins",
+    "Docker, VirtualBox, VmWare, Kubernetes",
+    "Lamp / Wamp",
+    "AWS SSM, ssh / sftp / ftp, telnet, nc"
+  ],
+  "notions": ["C++", "C#", "perl", "ruby"]
 }
