@@ -4,19 +4,66 @@
       "title": "<b>Cloud Solution Architect</b> - Centre d'<b>expertise Cloud</b> de BPIFrance",
       "date": "2022 - ajd",
       "desc": "Au sein du Shared Service <b>Cloud</b> et du CCoE: maintenances des <b>Landing Zones</b>, formations, rédaction des doctrines, suivi et assistances de projets, automatisation des audits",
-      "stack": "<b>Cloud</b> <b>AWS</b>, <b>Gitlab</b>, <b>Jenkins</b>, <b>Python</b>, <b>Bash</b>",
+      "stack": "<b>Cloud</b> <b>AWS</b>, <b>Terraform</b>,<b>Gitlab</b>, <b>Jenkins</b>, <b>Python</b>, <b>Bash</b>, BareMetal <b>OVH</b>, <b>OnPremise</b>, <b>VMWARE</b>/<b>VRealize</b>",
       "?": {
-        "desc": "",
-        "exemples": {}
+        "desc": "Accompagnant et <b>Devops</b>-<b>SRE</b> au sein du centre d'<b>expertise Cloud</b> de <b>BPI France</b>",
+        "exemples": {
+          "Maintenance et Build des Landing Zones": [
+            "Amélioration et résolution d'incidents sur les landing-zone <b>Réseau</b> et <b>Sécurité</b>",
+            "Mise en place de règles de vérification de conformités et rémédiations sur les 200+ comptes de l'organisation",
+            "Cadrage, planification de l'<b>architecture</b> et mise en place de la landing zone Finops",
+            "Maintien et <b>sécurisation</b> de la landing zone reverse legacy",
+            "Cadrage et planification de l'<b>architecture</b> de la nouvelle zone reverse et du plan de reverse",
+            "Maintenance et amélioration des plans de sauvegarde de donnée",
+            "Ajout de restrictions d'accès et mise en place de least privilege a l'échelle de l'organisation (SSO, Policies IAM partagées, SCP, Policies de resources transverses)",
+            "Rattrapage de dettes technique et fiabilisation des différentes landing zones et outils mis à disposition des <b>Cloud</b> Builder / <b>DevOps</b>",
+            "Assistances et montée en compétence des juniors et nouveaux arrivants de l'équipe d'excellence <b>Cloud</b>",
+            "Amélioration des performances et réduction des coûts des landing zones",
+            "Maintenance et Amélioration des stacks de déploiement (<b>Jenkins</b> & <b>Terraform)"
+          ],
+          "<b>Sécurisation</b> du SI et amélioration des pratiques <b>Cloud</b> <b>AWS</b>": [
+            "Audits respectant <b>AWS</b> Well Architected Framework de l'infrastructure <b>Cloud</b> du code IaC <b>Terraform</b> des 100+ projets <b>AWS</b> de l'organisation",
+            "Revue d'<b>architectures</b> et amélioration de la résilience des infrastructures (PCA)",
+            "Cadrage et mise en place de plans de reprise d'activité (PRA)",
+            "Définition et enrichissements des doctrines <b>Cloud</b> <b>AWS</b> pour les différents services autorisés",
+            "Cadrage et documentation des prérequis d'éligibilité au le <b>Cloud</b> <b>AWS</b>",
+            "Mise en place d'<b>audits</b> automatisés <i>as a service<i>",
+            "Mise en place, maintien, et enrichissements d'une librairie de modules interne afin de faciliter le BUILD/RUN des équipes en respectant les règles de <b>sécurité</b> et <b>résilience</b> interne",
+            "Résolution et Intervention sur les incidents de productions et/ou de <b>sécurités</b> et mise en place de plans de reprise et de réduction de risques",
+            "Mise en place d'un processus d'onboarding des nouveaux <b>Cloud</b> Builder / <b>DevOps</b> afin de leur présenter les doctrines internes, bonnes pratiques AWS, structure interne et documentations",
+            "Recrutements et test des <b>Cloud</b> Builders / <b>DevOps</b> <b>Cloud</b> en prestation",
+            "Aide a la montée en compétence sur les Services <b>AWS</b> et les outils et refonte de la documentation dans le but d'être \"self explanatory\"",
+            "Mise en place de tests de qualité et <b>sécurité</b> de l'IaC (<b>Terraform</b>) et d'une doctrine interne dédiée au code <b>Terraform</b>",
+            "Définition et suivi de plans de rémédiations",
+            "Analyse de risque et pentest de certaines applications",
+            "Amélioration et recadrage du processus de qualification de la donnée et contribution au cadrage du nouveau processus de vérification et requalification",
+            "Mise en place de rémédiations et solutions de <b>sécurisation</b> de la donnée"
+          ],
+          "<b>Accompagnement</b> de Projets sur <b>AWS</b>": [
+            "Suivi de la section \"DATA\" / \"BIG DATA\" et contribution au cadrage et a la mise en place de l'<b>architecture</b> Comptoirs Multi-Tenant et du DataLake",
+            "Onboarding de projets, validation des prérequis, de l'<b>architecture</b>, explication des PCIDSS et autres normes de conformités",
+            "Suivi du Finops et la résilience et recommandation d'optimisations",
+            "Assistance des <b>architectes</b> <b>Cloud</b> <b>AWS</b> sur les choix d'<b>architecture</b> les plus adaptés aux besoins des projets",
+            "Suivi du build et du RUN en support via des points régulier, des immersions ou des sollicitations spontannéees selon les niveaux",
+            "Interventions sur les projets en difficultés",
+            "Mise en place et suivi de plans de migrations (onprem-AWS ou AWS-AWS)",
+            "Support niveau 1, 2, 3",
+            "Mise en place du modèle de coût de refacturation Cloud Privé et Onpremise",
+            "Administration de serveurs BareMetal OVH et virtuels VRealize",
+            "Contribution au la Définition de la restructuration des <b>Cloud</b> Builder et de l'équipe d'<b>accompagnement</b> Cloud",
+            "<b>Accompagnement</b> des projets mature en terme de <b>sécurité</b>+coûts+résilience vers des objectifs d'excellence opérationnelle et d'écologie",
+            "<b>Sécurisation</b> des patterns d'<b>architecture</b> en place ou en cadrage"
+          ]
+        }
       }
     },
     {
       "title": "Agile <b>Cloud Engineer</b> - SFEIR",
       "date": "2022 - ajd",
-      "desc": "",
-      "stack": "",
+      "desc": "Voir Mission BPI",
+      "stack": "<b>Cloud</b> <b>AWS</b>, <b>Terraform</b>,<b>Gitlab</b>, <b>Jenkins</b>, <b>Python</b>, <b>Bash</b>, BareMetal <b>OVH</b>, <b>OnPremise</b>, <b>VMWARE</b>/<b>VRealize</b>",
       "?": {
-        "desc": "",
+        "desc": "Passage de certifications AWS Architect",
         "exemples": {}
       }
     },

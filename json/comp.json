@@ -1,7 +1,7 @@
 {
   "system": [
     "<b>Cloud</b> en virtualisation et <b>Cloud Serveless</b> (<b>AWS</b> / <b>GCP</b>)",
-    "Systèmes Unix",
+    "Systèmes Unix / Linux",
     "Compilation de noyaux",
     "LFS/compilation de paquets",
     "Protocoles(TCP / UDP...)"
@@ -18,7 +18,7 @@
     "Assembleur (asm / nasm)"
   ],
   "app": [
-    "<b>Amazon Web Services</b>(<b>AWS</b>)...",
+    "<b>Amazon Web Services</b>(<b>AWS</b>)",
     "<b>Google</b> <b>Cloud</b> Platform (<b>GCP</b>)",
     "Serveurs Apache / Nginx",
     "Mailing (SMTP, IMAP, POP)",
@@ -32,6 +32,7 @@
   ],
   "data": [
     "SQL / MySQL / PostgreSQL / <b>Google Cloud SQL</b> / BigQuery / <b>AWS</b> RDS / Athena",
+    "<b>AWS</b> Glue, Pandas, ",
     "ElasticSearch / Kibana / S3",
     "NoSQL (MongoDB, csv, JSON, DynamoDB)"
   ],
@@ -42,7 +43,8 @@
     "Ansible, Terraform, Jenkins",
     "Docker, VirtualBox, VmWare, Kubernetes",
     "Lamp / Wamp",
-    "AWS SSM, ssh / sftp / ftp, telnet, nc"
+    "AWS SSM, ssh / sftp, telnet, nc/netcat",
+    "<b>AWS</b> Inspector & Security Hub, MetaSploit, Nmap, OWASP ZAP, <b>AWS</b> Config"
   ],
   "notions": ["C++", "C#", "perl", "ruby"]
 }
