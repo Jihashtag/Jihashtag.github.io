@@ -44,21 +44,21 @@ table {
 /* fin reset */
 
 @font-face {
-    font-family: 'bebas';
-    src: url('fonts/bebasneue-regular-webfont.woff2') format('woff2'),
-         url('fonts/bebasneue-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'bebas';
+	src: url('fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+		 url('fonts/bebasneue-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'liberation';
-    src: url('fonts/LiberationSans.woff2') format('woff2'),
-         url('fonts/LiberationSans.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'liberation';
+	src: url('fonts/LiberationSans.woff2') format('woff2'),
+		 url('fonts/LiberationSans.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 body {
@@ -109,9 +109,9 @@ header {
 	float: right;
 }
 a, p {
-    position: relative;
-    z-index: 2;
-    word-wrap: break-word;
+	position: relative;
+	z-index: 2;
+	word-wrap: break-word;
 }
 header p {
 	display: inline-block;
@@ -171,7 +171,7 @@ nav {
 	box-sizing: border-box;
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;
-    text-align: center;
+	text-align: center;
 }
 nav.fixed {
 	position: fixed;
@@ -199,9 +199,13 @@ nav a {
 .white {
 	background: white;
 	width: 100%;
-	padding: 50px 5vw;
+	padding: 0 5vw;
 	box-sizing: border-box;
 	position: relative;
+}
+.white ~ .white {
+	padding-top: 25px;
+	margin-top: -5px;
 }
 .white.fixed {
 	background: white;
@@ -213,7 +217,7 @@ ul li {
 	list-style: none;
 	font-size:1em;
 	font-family: 'liberation';
-    font-weight: bolder;
+	font-weight: bolder;
 	margin: 5px auto;
 }
 #about ul li {
@@ -233,20 +237,21 @@ h4 {
 	padding:12px 0;
 	font-size: 1.5em;
 	box-sizing: border-box;
-	text-align: center}
-
+	text-align: center;
+	margin-bottom: 25px;
+}
 h4.xp {
 width: 50%;
 }
 ul#experience, ul#benevol, #ref ul, ul#jobs {
 	display: block;
-    margin: auto;
+	margin: auto;
 	width: 55%;
-    padding-left: 5%;
+	padding-left: 5%;
 	box-sizing: border-box;
 }
 ul#experience.school {
-    display: block;
+	display: block;
 }
 .date, .poste, .exempleTitle {
 	display: inline-block;
@@ -272,58 +277,59 @@ ul#experience.school {
 	color: black
 }
 .more::before {
-    content: '?';
-    color: white;
-    background-color: #b13619;
-    border-radius: 100%;
-    height: 25px;
-    width: 25px;
-    display: inline-block;
-    text-align: center;
+	content: '?';
+	color: white;
+	background-color: #b13619;
+	border-radius: 100%;
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+	text-align: center;
 }
 .more {
-    display: block;
-    margin-left: 25px;
-    width: 25px;
-    float: right;
-    position: relative;
-    z-index: 1;
+	display: block;
+	margin-left: 25px;
+	width: 25px;
+	float: right;
+	position: relative;
+	z-index: 1;
 }
 .more:hover, .more:active {
-    z-index: 2;
+	z-index: 2;
+	cursor: pointer;
 }
 .more > .description {
-    display: none;
+	display: none;
 }
-.more:hover > .description, .more:active > .description {
-    z-index: 9;
-    background-color: white;
-    position: absolute;
-    display: block;
-    width: 50vw;
-    right: 0;
-    top: 20px;
-    border: 5px solid #b13619;
-    border-radius: 10px;
-    padding: 50px;
+.more:hover > .description, .more:active > .description, .more[active] > .description {
+	z-index: 9;
+	background-color: white;
+	position: absolute;
+	display: block;
+	width: 50vw;
+	right: 0;
+	top: 20px;
+	border: 5px solid #b13619;
+	border-radius: 10px;
+	padding: 50px;
 
 }
 .more li {
-    list-style: disc inside;
-    padding: 2px;
+	list-style: disc inside;
+	padding: 2px;
 }
 .exempleTitle {
-    padding: 15px;
+	padding: 15px;
 }
 .poste {
 	width: 75%
 }
 .stack {
-    font-size: 0.8em;
-    display: block;
+	font-size: 0.8em;
+	display: block;
 }
 .stack:not(:empty)::before {
-    content: 'Stack: ';
+	content: 'Stack: ';
 }
 
 #competence h5 {
@@ -342,14 +348,14 @@ hr {width: 70vw;
 	color:#b13619;
 	padding-left: 20px
 }
-#competence ul {
+#competence ul, h4 {
 	background: url(img/bg.jpg);
 	background-size: 100%;
 	background-attachment: fixed;
 	padding: 20px;
 	color:white;
 	margin-bottom: 50px;
-	    box-sizing: border-box;
+	box-sizing: border-box;
 	width: 100%
 }
 #competence li {
@@ -360,16 +366,16 @@ hr {width: 70vw;
 #competence div {
 	box-sizing: border-box;
 	display: inline-block;
-	width: 45%
-}
-#competence div:nth-child(2) {
-	float: right;
+	width: 45%;
+	margin: 0 2.5%;
+	vertical-align: middle;
 }
 #contact.white{
 	background: rgba(0,0,0,0);
+	padding-top: 0;
 }
 #contact.white ul {
-    text-align: center;
+	text-align: center;
 }
 #contact.white ul li{
 	display: inline-block;
@@ -382,8 +388,14 @@ hr {width: 70vw;
 	margin-bottom: 50px
 }
 #contact ul a {
-    color:white;
-    text-decoration: none;
+	color:white;
+	text-decoration: none;
+}
+.white h4 {
+	width: 100vw;
+	margin-left: -5vw;
+	margin-bottom: 25px;
+	text-align: center;
 }
 h4.lastH4 {
 	border-bottom: 2px solid white;
@@ -414,12 +426,12 @@ svg line.bottom, svg line.top{
 	stroke-dasharray: 800 !important;
 }
 svg.cloud {
-    z-index: 0;
-    position: relative;
-    opacity: 0.25;
+	z-index: 0;
+	position: relative;
+	opacity: 0.25;
 }
 svg circle, svg rect {
-    fill: grey;
+	fill: grey;
 }
 ul.anime:hover svg line {
 	-webkit-transform: translateX(-400px);
@@ -459,79 +471,97 @@ ul.anime:hover svg line.right {
 	background: url(img/git.png) no-repeat;
 	background-size: contain;
 }
-@media screen and (max-width: 1000px), @media print {
+@media print, screen and (max-width: 1000px) {
 	#logo {
-    	width: 20vw;
-    	height: 20vw;
-	    margin: 6vw 40vw 4vw 40vw;
+		width: 20vw;
+		height: 20vw;
+		margin: 6vw 40vw 4vw 40vw;
 	}
 	#contact.white ul li {
-    	width: 30%;
-    	margin-bottom: 40px;
+		width: 30%;
+		margin-bottom: 40px;
 	}
 	#contact ul {
 		text-align: center
 	}
-    .date {
-        height: unset;
-    }
-    nav a {
-        padding: 2%;
-        display: inline-block;
-        width: 27%;
-        margin: auto;
-        vertical-align: text-top;
-    }
-    nav#nav {
-        height: auto;
-    }
-    ul li {
-        font-weight: normal;
-    }
-    #about ul {
-        width: 45%;
-        min-width: 150px;
-        padding: 1%;
-    }
-    .poste {
-        width: 100%;
-    }
-    ul#experience.school {
-        width: 100%;
-    }
-    #competence div {
-        width: 100%;
-        float:none!important;
-    }
-    ul#benevol, ul#experience, ul#jobs, #competence ul.anime {
-        width: 100%;
-        padding: 5px 5px 5px 25px;
-        display:block;
-    }
+	.date {
+		height: unset;
+	}
+	nav a {
+		padding: 2%;
+		display: inline-block;
+		width: 27%;
+		margin: auto;
+		vertical-align: text-top;
+	}
+	nav#nav {
+		height: auto;
+	}
+	ul li {
+		font-weight: normal;
+	}
+	#about ul {
+		width: 45%;
+		min-width: 150px;
+		padding: 1%;
+	}
+	.poste {
+		width: 100%;
+	}
+	ul#experience.school {
+		width: 100%;
+	}
+	#competence div {
+		width: 100%;
+		float:none!important;
+	}
+	ul#benevol, ul#experience, ul#jobs, #competence ul.anime {
+		width: 100%;
+		padding: 5px 5px 5px 25px;
+		display:block;
+	}
 }
 @media print {
-    header, ul, li, h1, h2, h3, h4, h5, div.white, li.experience, div#competence div, ul.anime, ul.anime li, .more, .more > .description, .more > .description > .div {
-        padding: 0 !important;
-        float: none !important;
-        position: relative !important;
-        width: 100% !important;
-        display: block !important;
-        margin: auto !important;
-        height: auto !important;
-    }
-    .more:before {
-        display:none;
-    }
-    h4, h5, ul {
-        padding-top: 2.25vh!important;
-        padding-bottom: 1vh!important;
-    }
-    .cloud, #nav, #logo{
-        display: none;
-    }
-    footer {
-        position: fixed !important;
-        bottom: 0;
-        right: 0;
-    }
+	@page {
+		size: A4;
+		margin-bottom: 1.8cm;
+	}
+	@page {
+		@bottom-right {
+			content: "© 2020 Jean-Alexandre Bert, All Rights Reserved";
+			font-size: 10px;
+			color: #777;
+		}
+	}
+	header, ul, li, h1, h2, h3, h4, h5, div.white, li.experience, div#competence div, ul.anime, ul.anime li, .more, .more > .description, .more > .description > .div {
+		padding: 0 !important;
+		float: none !important;
+		position: relative !important;
+		width: 100% !important;
+		display: inline-block !important;
+		margin: auto !important;
+		height: auto !important;
+	}
+	.more:before {
+		display:none;
+	}
+	h4, h5, ul {
+		padding-top: 2vh!important;
+		padding-bottom: 1vh!important;
+	}
+	h4, div#experience > ul#jobs > li.experience > div.date {
+		page-break-after: avoid;
+		break-after: avoid;
+	}
+	div#experience > ul#jobs > li.experience > div.poste, div#experience > ul#jobs > li.experience > div.date {
+		page-break-before: avoid;
+		break-before: avoid;
+	}
+	ul li {
+		page-break-inside: avoid;
+		break-inside: avoid;
+	}
+	.cloud, #nav, #logo {
+		display: none;
+	}
 }

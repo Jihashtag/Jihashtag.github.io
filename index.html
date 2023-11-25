@@ -48,15 +48,15 @@ gtag('config', 'G-QT5L3XB8J9');
 	<h2><b>Architecte</b> en technologies numériques </h2>
 	<h2 id="comp"><b>Cloud</b> | Logiciels | Systèmes et Réseaux | Applicatif | <b>DevOps</b></h2>
 </header>
-<nav id="nav">
+<nav id="nav" onclick="this.setAttribute('class', 'fixed')">
 	<a href="#about">à propos</a>
 	<a href="#competence">compétences</a>
 	<a href="#experience">expérience</a>
 	<a href="#ref">formations</a>
 	<a href="#contact">contact</a>
 </nav>
-<h4>à propos</h4>
 <div id="about" class="white">
+    <h4>à propos</h4>
 	<ul id="motiv">
 	</ul>
 	<ul id="passion">
@@ -66,13 +66,13 @@ gtag('config', 'G-QT5L3XB8J9');
 	<ul id="languages">
 	</ul>
 </div>
-<h4>expériences professionnelles</h4>
 <div id="experience" class="white">
+    <h4>expériences professionnelles</h4>
 	<ul id="jobs">
 	</ul>
 </div>
-<h4>bénévolat</h4>
 <div id="xp" class="white">
+    <h4>bénévolat</h4>
 	<ul id="benevol">
 		<li class="experience">
 			<div class="date">2014-16</div>
@@ -82,8 +82,8 @@ gtag('config', 'G-QT5L3XB8J9');
 		</li>
 	</ul>
 </div>
-<h4>compétences</h4>
 <div class="white" id="competence">
+    <h4>compétences</h4>
 	<div>
 	<h5>Système</h5>
 		<ul class="anime" id="system">
@@ -94,9 +94,6 @@ gtag('config', 'G-QT5L3XB8J9');
 	<h5>Gestion de données</h5>
 		<ul class="anime" id="data">
 		</ul>
-    <h5>notions</h5>
-		<ul class="anime" id="notions">
-		</ul>
 	</div><div>
     <h5><b>Applicatif</b></h5>
         <ul class="anime" id="app">
@@ -106,8 +103,8 @@ gtag('config', 'G-QT5L3XB8J9');
 		</ul>
 	</div>
 </div>
-<h4>Formations</h4>
 <div id="ref" class="white">
+    <h4>Formations</h4>
 	<ul id="experience" class="school">
 		<li class="experience">
 			<div class="date">2022</div>
@@ -129,8 +126,8 @@ gtag('config', 'G-QT5L3XB8J9');
 		</li>
 	</ul>
 </div>
-<h4 class="lastH4">Contact</h4>
 <div id="contact" class="white">
+    <h4 class="lastH4">Contact</h4>
 	<ul>
 		<li>
             <a href="https://www.linkedin.com/in/jean-alexandre-bert/">
@@ -215,7 +212,7 @@ function loadJobs() {
 
         if (j['?']) {
             var more = document.createElement('div');
-            more.setAttribute('onclick', "");
+            more.setAttribute('onclick', "this.toggleAttribute('active')");
             more.className = "more";
             var m_desc = document.createElement('div');
             m_desc.className = "description";

@@ -45,6 +45,5 @@
     "Lamp / Wamp",
     "AWS SSM, ssh / sftp, telnet, nc/netcat",
     "<b>AWS</b> Inspector & Security Hub, MetaSploit, Nmap, OWASP ZAP, <b>AWS</b> Config"
-  ],
-  "notions": ["C++", "C#", "perl", "ruby"]
+  ]
 }
