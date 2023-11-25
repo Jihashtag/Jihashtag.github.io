@@ -318,13 +318,13 @@ ul#experience.school {
 	list-style: disc inside;
 	padding: 2px;
 }
-.description::before {
+/* .description::before {
 	content: 'X';
 	position: absolute;
 	top: 10px;
 	right: 10px;
 	color: #777;
-  }
+} */
 .exempleTitle {
 	padding: 15px;
 }
