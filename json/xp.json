@@ -63,7 +63,7 @@
       "desc": "Voir Mission BPI",
       "stack": "<b>Cloud</b> <b>AWS</b>, <b>Terraform</b>,<b>Gitlab</b>, <b>Jenkins</b>, <b>Python</b>, <b>Bash</b>, BareMetal <b>OVH</b>, <b>OnPremise</b>, <b>VMWARE</b>/<b>VRealize</b>",
       "?": {
-        "desc": "Passage de certifications AWS Architect",
+        "desc": "Passage des certifications AWS Solution Architect Associate, AWS Security Specialty",
         "exemples": {}
       }
     },
