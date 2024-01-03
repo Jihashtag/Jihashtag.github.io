@@ -63,7 +63,7 @@
       "desc": "Voir Mission BPI",
       "stack": "<b>Cloud</b> <b>AWS</b>, <b>Terraform</b>,<b>Gitlab</b>, <b>Jenkins</b>, <b>Python</b>, <b>Bash</b>, BareMetal <b>OVH</b>, <b>OnPremise</b>, <b>VMWARE</b>/<b>VRealize</b>",
       "?": {
-        "desc": "Passage des certifications AWS Solution Architect Associate, AWS Security Specialty",
+        "desc": "Passage des certifications AWS Solution Architect Professional, AWS Security Specialty, AWS Solution Architect Associate",
         "exemples": {}
       }
     },
@@ -274,7 +274,7 @@
     },
     {
       "title": "Logisticien, École 42",
-      "date": "2015-17",
+      "date": "2015 - 2016",
       "desc": "Temps partiel maintenance technique",
       "stack": ""
     }

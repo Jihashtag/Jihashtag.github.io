@@ -467,6 +467,10 @@ ul.anime:hover svg line.right {
 	background: url(img/linkedin.png) no-repeat;
 	background-size: contain;
 }
+.picto.credly {
+	background: url(img/credly.png) no-repeat;
+	background-size: contain;
+}
 .picto.github {
 	background: url(img/git.png) no-repeat;
 	background-size: contain;
