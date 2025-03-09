@@ -1,8 +1,68 @@
 {
   "postes": [
     {
+      "title": "<b>Gestion des  socles Multi-Cloud</b> - CCoE</b> de M6 Group",
+      "date": "2024 - ajd",
+      "desc": "Passage de l'organization <b>AWS</b> de POC à Ready-to-prod, création des <b>Landing-Zone</b> <b>Securité et FinOps</b>, maintenance des <b>Landing Zones</b> <b>Network & SSO</b>, rédaction des doctrines et établissement du RACI, mise en place des procédures <b>Cloud Publique</b> et de gestion d'incidents, mise en place d'un Gitlab résilient, créations des dashboards de suivi (Sécurité / Finops / Réseau) suivi et assistances de projets, automatisations.",
+      "stack": "<b>Cloud</b> <b>AWS</b>, <b>Google</b> <b>Cloud</b> Plateform, <b>Terraform</b>, <b>Gitlab</b>, <b>Gitlab-ci</b>, <b>Python</b>, <b>Bash</b>, <b>Docker</b>, <b>Azure</b>",
+      "?": {
+        "desc": "Gestion des périmètres <b>Cloud Publiques</b> au sein de la <b>DTI</b> des Groupes <b>M6/RTL</b>",
+        "exemples": {
+          "Mise en place de normes et doctrines": [
+            "Mise en place d'un modèle de <b>gouvernance</b> et de <b>responsabilités</b>",
+            "Etablissement d'un RACI et d'une matrice de compétences",
+            "Etablissement de la doctrine de <b>sécurité</b> du groupe sur le périmètre <b>Cloud</b> <b>Publique</b>",
+            "Création et structure des documentations et des procédures",
+            "Création des procédures de réponse aux incidents de <b>sécurité</b> et de <b>performance</b>",
+            "Création des procédures de gestion et suivi : des accès, des <b>coûts</b>, des ressources, des données, des <b>infrastructures</b>, des applications, des <b>réseaux</b>, et des remontées de <b>sécurité</b>",
+            "Mise en place des process de création de projets Cloud Publique",
+            "Mise en place des règles d'accès limité aux environnements Cloud Publique",
+            "Mise en place des doctrine de monitoring de <b>coûts</b>, <b>performance</b> et résilience",
+            "Cadrage, planification de l'<b>architecture</b> et mise en place des landing zones Sécurité et Finops",
+            "Amélioration et résolution d'incidents sur les landing-zones",
+            "Maintenance et amélioration des plans de sauvegarde de donnée",
+            "Mise en place d'une librairie de modules internes pour faciliter le BUILD/RUN des équipes en respectant les règles de <b>sécurité</b> et <b>résilience</b> interne",
+            "Mise en place de rémédiations et solutions de <b>sécurisation</b> de la donnée",
+            "Documentation des prérequis d'éligibilité au le <b>Cloud</b> <b>Publique</b>",
+            "Documentation des procédures Ops au sein du CCoE",
+            "Création des dashboards de suivi (Sécurité / Finops / Réseau)"
+          ],
+          "<b>Sécurisation</b> du SI et amélioration des pratiques <b>Cloud</b> <b>Publique</b>": [
+            "Cadrage, planification de l'<b>architecture</b> et mise en place des landing zones Sécurité et Finops",
+            "Maintien, <b>sécurisation</b>, et amélioration des landing zones <b>Network</b> et SSO",
+            "Amélioration des performances et réduction des coûts des landing zones et des infrastructures projets",
+            "Revue d'<b>architectures</b> et amélioration de la résilience des infrastructures (PCA)",
+            "Maintenance et Amélioration des stacks de déploiement (<b>Gitlab</b> & <b>Terraform)",
+            "Migration des équipes data vers les nouvelles landing zones",
+            "Migration des projets sur l'organisation de POC vers les nouvelles landing zones",
+            "Résolution et Intervention sur les incidents de productions et/ou de <b>sécurités</b> et mise en place de plans de reprise et de réduction de risques",
+            "Mise en place de tests systématiques de qualité et <b>sécurité</b> de l'IaC (<b>Terraform</b>) et de doctrines internes dédiée à la qualité du code <b>Terraform</b>",
+            "Aide a la montée en compétence sur les Services <b>AWS</b>/<b>GCP</b> et les outils",
+            "Mise en place de documentations dans le but d'être \"self explanatory\"",
+            "Ajout de restrictions d'accès et mise en place de least privilege a l'échelle de l'organisation (SSO, Policies IAM partagées, SCP, Policies de resources transverses)",
+            "Définition et enrichissements des doctrines <b>Cloud</b> <b>Publiques</b> pour les différents services autorisés",
+            "Rattrapage de dettes technique et fiabilisation des outils mis à disposition des <b>DevOps</b>",
+            "Définition et suivi de plans de rémédiations",
+            "Analyse de risque et pentest"
+          ],
+          "<b>Accompagnement</b> des équipes de sécurité sur <b>AWS</b>": [
+            "Mise en place des doctrines de <b>Sécurité</b> <b>Cloud Publique</b>",
+            "Mise en place des documentation de sécurité",
+            "Mise en place des procédures et documentations de résponse aux incidents de sécurité",
+            "Mise en place d'outils de sécurité, de conformité et de détection de menaces",
+            "Etablissement des procedure de réponse aux incidents de sécurité et documentation des étapes, des acteurs et des responsabilités",
+            "Mise en place de plans de rémédiations et de réduction de risques",
+            "Mise en place de tests systématiques de qualité et sécurité de l'IaC (<b>Terraform</b>) et de doctrines internes dédiée à la qualité du code <b>Terraform</b>",
+            "Analyse de risque et pentest",
+            "Aide a la montée en compétence sur les Services <b>AWS</b>/<b>GCP</b> et les outils",
+            "Mise en place de documentations dans le but d'être \"self explanatory\""
+          ]
+        }
+      }
+    },
+    {
       "title": "<b>Cloud Solution Architect</b> - Centre d'<b>expertise Cloud</b> de BPIFrance",
-      "date": "2022 - ajd",
+      "date": "2022 - 2024",
       "desc": "Au sein du Shared Service <b>Cloud</b> et du CCoE: maintenances des <b>Landing Zones</b>, formations, rédaction des doctrines, suivi et assistances de projets, automatisation des audits",
       "stack": "<b>Cloud</b> <b>AWS</b>, <b>Terraform</b>,<b>Gitlab</b>, <b>Jenkins</b>, <b>Python</b>, <b>Bash</b>, BareMetal <b>OVH</b>, <b>OnPremise</b>, <b>VMWARE</b>/<b>VRealize</b>",
       "?": {
