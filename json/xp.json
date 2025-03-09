@@ -1,8 +1,14 @@
 {
   "postes": [
     {
+      "title": "<b>Engineering Manager</b> <b>Serverless</b> Compute - <b>Scaleway</b>",
+      "date": "2025 - Ajd",
+      "desc": "<b>Management</b> direct de l'équipe technique maintenant les produits d'exécution de conteneurs sans serveurs",
+      "stack": "<b>Cloud</b> <b>Scaleway</b>, <b>Terraform</b>, Kubernetes, Gitlab, Gitlab-ci, golang, Docker"
+    },
+    {
       "title": "<b>Gestion des  socles Multi-Cloud</b> - CCoE</b> de M6 Group",
-      "date": "2024 - ajd",
+      "date": "2024 - 2025",
       "desc": "Passage de l'organization <b>AWS</b> de POC à Ready-to-prod, création des <b>Landing-Zone</b> <b>Securité et FinOps</b>, maintenance des <b>Landing Zones</b> <b>Network & SSO</b>, rédaction des doctrines et établissement du RACI, mise en place des procédures <b>Cloud Publique</b> et de gestion d'incidents, mise en place d'un Gitlab résilient, créations des dashboards de suivi (Sécurité / Finops / Réseau) suivi et assistances de projets, automatisations.",
       "stack": "<b>Cloud</b> <b>AWS</b>, <b>Google</b> <b>Cloud</b> Plateform, <b>Terraform</b>, <b>Gitlab</b>, <b>Gitlab-ci</b>, <b>Python</b>, <b>Bash</b>, <b>Docker</b>, <b>Azure</b>",
       "?": {
@@ -64,7 +70,7 @@
       "title": "<b>Cloud Solution Architect</b> - Centre d'<b>expertise Cloud</b> de BPIFrance",
       "date": "2022 - 2024",
       "desc": "Au sein du Shared Service <b>Cloud</b> et du CCoE: maintenances des <b>Landing Zones</b>, formations, rédaction des doctrines, suivi et assistances de projets, automatisation des audits",
-      "stack": "<b>Cloud</b> <b>AWS</b>, <b>Terraform</b>,<b>Gitlab</b>, <b>Jenkins</b>, <b>Python</b>, <b>Bash</b>, BareMetal <b>OVH</b>, <b>OnPremise</b>, <b>VMWARE</b>/<b>VRealize</b>",
+      "stack": "<b>Cloud</b> <b>AWS</b>, <b>Terraform</b>,<b>Gitlab</b>, <b>Jenkins</b>, <b>Python</b>, Elastic Kubernetes Servers, <b>Bash</b>, Docker,, BareMetal <b>OVH</b>, <b>OnPremise</b>, <b>VMWARE</b>/<b>VRealize</b>",
       "?": {
         "desc": "Accompagnant et <b>Devops</b>-<b>SRE</b> au sein du centre d'<b>expertise Cloud</b> de <b>BPI France</b>",
         "exemples": {
@@ -119,8 +125,8 @@
     },
     {
       "title": "Agile <b>Cloud Engineer</b> - SFEIR",
-      "date": "2022 - ajd",
-      "desc": "Voir Mission BPI",
+      "date": "2022 - 2025",
+      "desc": "Voir Missions BPI et M6",
       "stack": "<b>Cloud</b> <b>AWS</b>, <b>Terraform</b>,<b>Gitlab</b>, <b>Jenkins</b>, <b>Python</b>, <b>Bash</b>, BareMetal <b>OVH</b>, <b>OnPremise</b>, <b>VMWARE</b>/<b>VRealize</b>",
       "?": {
         "desc": "Passage des certifications AWS Solution Architect Professional, AWS Security Specialty, AWS Solution Architect Associate",
@@ -131,7 +137,7 @@
       "title": "<b>Ingénieur</b> <b>DevOps</b>, VWIS (Veolia Water)",
       "date": "2020-2022",
       "desc": "<b>Automatisation</b>, Gestion de CI/CD, <b>Développement<b/>, Maintenance applicative, Gestion de releases, déploiements, <b>architectures</b>",
-      "stack": "<b>Cloud</b> <b>AWS</b> et <b>GCP</b>, <b>Python</b>, PHP, Angular, <b>Jenkins</b>, <b>Ansible</b>, <b>Terraform</b>, Bitbucket, Django",
+      "stack": "<b>Cloud</b> <b>AWS</b> et <b>GCP</b>, <b>Python</b>, PHP, Angular, <b>Jenkins</b>, <b>Google Kubernetes Engine</b>, <b>Ansible</b>, <b>Terraform</b>, Bitbucket, Django",
       "?": {
         "desc": "VWIS (Veolia Water Information Systems) est l'entreprise numérique de la Direction des Systèmes d'Information de Veolia Eau France.",
         "exemples": {
@@ -199,7 +205,7 @@
       "title": "<b>Développeur</b> chef de projet, Polyconseil",
       "date": "2019",
       "desc": "Automatisation, <b>Développement</b>, Formation des profils juniors, Gestion des releases et déploiements de projets internes/open-source",
-      "stack": "<b>AWS</b>, <b>Python</b>, Django, ElasticSearch, PostgreSQL, Github, Gitlab, React, <b>Jenkins</b>",
+      "stack": "<b>AWS</b>, <b>Python</b>, Django, ElasticSearch, PostgreSQL, Github, Gitlab, React, <b>Jenkins</b>, Kubernetes",
       "?": {
         "desc": "Polyconseil est une ESN (ex-SII) filiale du groupe Bolloré.",
         "exemples": {
