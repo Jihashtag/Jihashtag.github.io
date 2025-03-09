@@ -3,15 +3,10 @@
     "<b>Cloud</b> en virtualisation et <b>Cloud Serveless</b> (<b>AWS</b> / <b>GCP</b>)",
     "Systèmes Unix / Linux",
     "Virtualisation (VMware, VirtualBox, Docker, Kubernetes, GKE)",
-    "Systèmes de fichiers (ext2/3/4, NTFS, FAT32, HFS+)",
-    "Systèmes de fichiers réseaux (NFS, CIFS, SMB)",
     "Systèmes embarqués (Raspberry Pi, Arduino, ESP8266)",
-    "Compilation de noyaux",
-    "Gestionnaries de paquets (apt/dpkg, yum, pip, npm, pkg, apk)",
-    "Gestionnaire de services (systemd, init.d, upstart)",
     "Gestionnaire de disques (LVM, RAID, ZFS)",
     "Gestionnaire de réseau (ifconfig, ip, route, iptables, nftables)",
-    "LFS/compilation de paquets"
+    "LFS et compilation de paquets (apt/dpkg, yum, pip, npm, pkg, apk)"
   ],
   "prog": [
     "<b>Python</b>",
@@ -38,8 +33,8 @@
     "Vimscript"
   ],
   "data": [
-    "SQL / MySQL / PostgreSQL / <b>Google Cloud SQL</b> / BigQuery / <b>AWS</b> RDS / Athena",
-    "<b>AWS</b> Glue, Pandas, Spark",
+    "SQL / MySQL / PostgreSQL / <b>Google Cloud SQL</b> / BigQuery / RDS / Athena",
+    "Glue, Pandas, Spark",
     "ElasticSearch / Kibana / S3",
     "Redis / Memcached",
     "NoSQL (MongoDB, csv, JSON, DynamoDB)",
@@ -54,8 +49,8 @@
     "Docker, VirtualBox, VmWare, Kubernetes",
     "Jira, Confluence, Trello, Slack, Discord",
     "Visual Studio Code, vim , Sublime Text",
-    "<b>AWS</b> SSM, ssh / sftp, telnet, nc/netcat",
-    "<b>AWS</b> Inspector / <b>Security</b> Hub / <b>Guard Duty</b>",
+    "SSM, ssh / sftp, telnet, nc/netcat",
+    "Inspector / <b>Security</b> Hub / <b>Guard Duty</b>",
     "Kali Linux, Parrot OS, BlackArch, BackBox",
     "Gestion de projet (Agile, Scrum, Kanban)",
     "Gestion de réseau (Wireshark, tcpdump, nmap, netcat)",
