@@ -2,19 +2,26 @@
   "system": [
     "<b>Cloud</b> en virtualisation et <b>Cloud Serveless</b> (<b>AWS</b> / <b>GCP</b>)",
     "Systèmes Unix / Linux",
+    "Virtualisation (VMware, VirtualBox, Docker, Kubernetes, GKE)",
+    "Systèmes de fichiers (ext2/3/4, NTFS, FAT32, HFS+)",
+    "Systèmes de fichiers réseaux (NFS, CIFS, SMB)",
+    "Systèmes embarqués (Raspberry Pi, Arduino, ESP8266)",
     "Compilation de noyaux",
-    "LFS/compilation de paquets",
-    "Protocoles(TCP / UDP...)"
+    "Gestionnaries de paquets (apt/dpkg, yum, pip, npm, pkg, apk)",
+    "Gestionnaire de services (systemd, init.d, upstart)",
+    "Gestionnaire de disques (LVM, RAID, ZFS)",
+    "Gestionnaire de réseau (ifconfig, ip, route, iptables, nftables)",
+    "LFS/compilation de paquets"
   ],
   "prog": [
     "<b>Python</b>",
     "C / Kernel Linux",
     "Scritpting (<b>Bash</b>/sh, batch)",
     "<b>GO</b>, <b>Golang</b>",
-    "PHP",
-    "Java",
     "Node.js",
     "JS / TS",
+    "Java",
+    "PHP",
     "Assembleur (asm / nasm)"
   ],
   "app": [
@@ -32,18 +39,26 @@
   ],
   "data": [
     "SQL / MySQL / PostgreSQL / <b>Google Cloud SQL</b> / BigQuery / <b>AWS</b> RDS / Athena",
-    "<b>AWS</b> Glue, Pandas, ",
+    "<b>AWS</b> Glue, Pandas, Spark",
     "ElasticSearch / Kibana / S3",
-    "NoSQL (MongoDB, csv, JSON, DynamoDB)"
+    "Redis / Memcached",
+    "NoSQL (MongoDB, csv, JSON, DynamoDB)",
+    "Data Mining (Scikit-learn, TensorFlow, Keras)",
+    "Data Visualization (Matplotlib, Seaborn, Tableau, PowerBI)"
   ],
   "tools": [
     "<b>Amazon Web Services</b> (<b>AWS</b>)",
     "<b>Google Cloud Platform</b> (<b>GCP</b>)",
-    "git / Github / Gitlab / Bitbucket",
-    "Ansible, Terraform, Jenkins",
+    "Git / Github / Gitlab / Bitbucket",
+    "Ansible, Terraform, Jenkins, Gitlab CI",
     "Docker, VirtualBox, VmWare, Kubernetes",
-    "Lamp / Wamp",
-    "AWS SSM, ssh / sftp, telnet, nc/netcat",
-    "<b>AWS</b> Inspector & Security Hub, MetaSploit, Nmap, OWASP ZAP, <b>AWS</b> Config"
+    "Jira, Confluence, Trello, Slack, Discord",
+    "Visual Studio Code, vim , Sublime Text",
+    "<b>AWS</b> SSM, ssh / sftp, telnet, nc/netcat",
+    "<b>AWS</b> Inspector / <b>Security</b> Hub / <b>Guard Duty</b>",
+    "Kali Linux, Parrot OS, BlackArch, BackBox",
+    "Gestion de projet (Agile, Scrum, Kanban)",
+    "Gestion de réseau (Wireshark, tcpdump, nmap, netcat)",
+    "Gestion de sécurité (Nmap, Metasploit, OWASP ZAP, Nessus, Nikto, Burp Suite)"
   ]
 }
