@@ -2,7 +2,7 @@
   "system": [
     "<b>Cloud</b> en virtualisation et <b>Cloud Serveless</b> (<b>AWS</b> / <b>GCP</b>)",
     "Systèmes Unix / Linux",
-    "Virtualisation (VMware, VirtualBox, Docker, Kubernetes, GKE)",
+    "Virtualisation (VMware, VirtualBox, Docker, Kubernetes, EKS, GKE, Kapsule, Kosmos)",
     "Systèmes embarqués (Raspberry Pi, Arduino, ESP8266)",
     "Gestionnaire de disques (LVM, RAID, ZFS)",
     "Gestionnaire de réseau (ifconfig, ip, route, iptables, nftables)",
@@ -22,6 +22,8 @@
   "app": [
     "<b>Amazon Web Services</b>(<b>AWS</b>)",
     "<b>Google</b> <b>Cloud</b> Platform (<b>GCP</b>)",
+    "<b>Scaleway Cloud</b>",
+    "<b>Kurbernetes Managés</b>",
     "Serveurs Apache / Nginx",
     "Mailing (SMTP, IMAP, POP)",
     "Applications Android (Java / Kivy)",
@@ -44,6 +46,7 @@
   "tools": [
     "<b>Amazon Web Services</b> (<b>AWS</b>)",
     "<b>Google Cloud Platform</b> (<b>GCP</b>)",
+    "<b>Scaleway Cloud</b>",
     "Git / Github / Gitlab / Bitbucket",
     "Ansible, Terraform, Jenkins, Gitlab CI",
     "Docker, VirtualBox, VmWare, Kubernetes",

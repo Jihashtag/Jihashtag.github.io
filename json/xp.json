@@ -1,10 +1,43 @@
 {
   "postes": [
     {
+      "title": "Consultant <b>multi-cloud</b> Senior - <b>Log.consulting</b>",
+      "date": "2026 - Ajd",
+      "desc": "Expert dans la définition de trajectoires cloud et l'industrialisation de Landing Zones complexes. Expert en ingénierie de la fiabilité (SRE) et en sécurisation des infrastructures cloud (DevSecOps).",
+      "stack": "<b>Cloud</b> <b>Scaleway</b>, OVH OPCP, On Premise, <b>Terraform</b>",
+      "?": {
+        "desc": "Accompagnement d'organisations dans l'industrialisation et/ou le cadrage de socles multi cloud complexes. Double approche combinant rigueur logicielle appliquée aux opérations (Automation, Observabilité, Performance) et intégration continue de la sécurité (Shift-Left Security). Transformation des contraintes de conformité et de disponibilité en leviers d'agilité et d'excellence opérationnelle.",
+        "exemples": {
+          "Architecture" : [
+              "Design et de socles multi-cloud et plateformes cloud souveraines pour grands comptes sensibles.",
+              "Établissement de roadmaps de migrations souveraines."
+          ],
+          "SRE & DevOps": [
+           "Passage des certifications <b>GCP Cloud Engineer</b>, GCP <b>Cloud Architect</b>, GCP Professional <b>Cloud Security Operations</b> Engineer,  GCP Professional <b>Cloud Security</b> Engineer",
+    "Conceptualisation de socles multi-cloud et plateformes cloud souveraines et à haute performance pour grands comptes sensibles.",
+              "Mise en place des roadmaps de migrations avec focus sur les techniques de résilience et de sécurité."
+          ]
+        }
+      }
+    },
+    {
       "title": "<b>Engineering Manager</b> <b>Serverless</b> Compute - <b>Scaleway</b>",
-      "date": "2025 - Ajd",
-      "desc": "<b>Management</b> direct de l'équipe technique maintenant les produits d'exécution de conteneurs sans serveurs",
-      "stack": "<b>Cloud</b> <b>Scaleway</b>, <b>Terraform</b>, Kubernetes, Gitlab, Gitlab-ci, golang, Docker"
+      "date": "T3-T4 2025",
+      "desc": "Intégration de la structure en tant qu'Engineering Manager de l’équipe Serverless doer, dans un contexte de migration des versions bêta et alpha vers la V1 des produits Serverless.",
+      "stack": "<b>Cloud</b> <b>Scaleway</b>, <b>Terraform</b>, Kubernetes, Gitlab, Gitlab-ci, golang, Docker",
+      "?": {
+        "desc": "Équipe composée de 8 ingénieurs DevOps K8S.",
+        "exemples": {
+          "Performance" : [
+              "Optimisation des temps de réponse et gestion des incidents critiques sur uneinfrastructure distribuée en Go."
+          ],
+          "Management": [
+              "Préparation des migrations et mise en place de procédures de formation / certification au sein de l’équipe Serverless, et de cérémonies Agiles",
+              "Revue de la fiabilité des produits Serverless (Knative) en phase de transition V1",
+              "Revues d’architectures, ajout de tests unitaires et d’intégration en Go, ajout de fonctionnalités, et gestion des incidents de la plateforme"
+          ]
+        }
+      }
     },
     {
       "title": "<b>Gestion des  socles Multi-Cloud</b> - CCoE</b> de M6 Group",
